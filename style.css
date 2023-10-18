@@ -1,0 +1,425 @@
+@font-face{
+    font-family: ph2;
+    src: url(Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: h1;
+  src:url(ARCADECLASSIC.ttf);
+}
+body{
+    background-color:#141414;
+    color:white;
+    font-family:h1;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+p{
+  font-family:ph2;
+}
+h1{
+  display: inline-block;
+}
+br{
+  user-select:none;
+}
+#logo{
+    width:100px;
+    
+}
+.btn911{
+    position: absolute;
+    bottom:50px;
+    left: 70px;
+    color:white;
+    
+}
+#btn911{
+    color:white;
+    background-color:#0160c9;
+    border:solid 0px;
+    width:140px;
+    height:40px;
+    font-family: ph2;
+    border-radius:10px;
+    cursor: pointer;
+    font-family:ph2;
+}
+#btn911:hover{
+    background-color:#1CA3DE;
+    transition:0.7s;
+}
+#btn911:focus{
+    background-color:#0041c7;
+    transition:0.7s;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 5000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    color:white;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.card1{
+    background-color:black;
+    border:solid 0 0 black;
+    border-radius: 10px;
+    max-width:2000px;
+    width:100%;
+}
+.text7{
+    margin-left:20px;
+}
+#win7{
+    float:right;
+    width:200px;
+    border-radius:10px;
+    margin-right:20px;
+}
+.card2{
+    background-color:#0160c9;
+    border:solid 0 0 black;
+    border-radius: 10px;
+    width:600px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  transition: 0.3s;
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  width:40%;
+  border-radius:10px;
+  
+}
+
+/* On mouse-over, add a deeper shadow */
+#card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  opacity: 0.6;
+  transition: 0.7s;
+}
+#card{
+  max-width:550px;
+  cursor: pointer;
+  width:20%;
+  border-radius:10px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #141414;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius:20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.textlist{
+  position: absolute;
+  bottom: 30px;
+  left: 16px;
+  color:white;
+}
+#btn911:hover {
+  transition: 0.7s;
+  cursor: pointer;
+}
+#lemanp{
+  max-width:800px;
+  float:left;
+  margin: 10px;
+  width:90%
+}
+#shop{
+  max-width:500px;
+  width:90%;
+  cursor: pointer;
+  
+}
+#shop1{
+  max-width:500px;
+  width:70%;
+  height:313px;
+  cursor: pointer;
+}
+#shop:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  opacity: 0.6;
+  transition: 0.7s;
+}
+#shop1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  opacity: 0.6;
+  transition: 0.7s;
+}
+.textlist1{
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+  color:white;
+}
+/* Slideshow container */
+.slideshow-container1 {
+  max-width: 5000px;
+  width:100%;
+  position: relative;
+  margin:auto;
+  border-radius:10px;
+}
+
+/* Hide the images by default */
+.text1 {
+  position: absolute;
+  top:100px;
+  left:80px;
+  color:white;
+}
+.text2 {
+  position: absolute;
+  top:200px;
+  left: 80px;
+  color:white;
+}
+.text3 {
+  position: absolute;
+  top:300px;
+  left: 80px;
+  color:white;
+}
+.text4 {
+  position: absolute;
+  top:400px;
+  left: 80px;
+  color:white;
+}
+#img11{
+  opacity: 0.6;
+  border-radius:10px;
+}
+#kk{
+  max-width: 20000px;
+}
+.card22 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin:40px;
+  background-color:#0160c9;
+  width:100%;
+  max-width:250px;
+  border-radius:10px;
+  overflow: hidden; /* add this to contain floated children */
+  display: inline-block;
+  opacity:1;
+  cursor: pointer;
+  
+}
+
+/* On mouse-over, add a deeper shadow */
+.card22:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition:0.7s;
+  opacity:0.8;
+}
+
+/* Add some padding inside the card container */
+.container22 {
+  padding: 2px 16px;
+  margin:20px;
+  overflow: hidden; /* add this to contain floated children */
+  opacity:1;
+  
+}
+#ahmed{
+  max-width:200px;
+  margin:20px;
+  border-radius:10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  opacity:1;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container5 {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides5 {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev5,
+.next5 {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next5 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev5:hover,
+.next5:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext5 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption5-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column5 {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo5 {
+  opacity: 0.6;
+}
+
+.active,
+.demo5:hover {
+  opacity: 1;
+}
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+  background-color: #141414;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
