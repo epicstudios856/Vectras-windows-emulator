@@ -2,5 +2,7 @@
 "rom_icon":"",
 "rom_name":"",
 "rom_arch":"",
-"rom_size":""
+"rom_size":"",
+"rom_url":"",
+"rom_extra":""
 }]
