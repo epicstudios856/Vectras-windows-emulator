@@ -1,8 +1,8 @@
 [{
-"rom_icon":"",
-"rom_name":"",
-"rom_arch":"",
-"rom_size":"",
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/386491_react%20os_reactos_icon.png",
+"rom_name":"React OS",
+"rom_arch":"x86",
+"rom_size":"2GB",
 "rom_url":"",
 "rom_extra":""
 }]
