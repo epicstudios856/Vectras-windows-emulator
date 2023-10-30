@@ -6,7 +6,7 @@
 "rom_size":"1.45GB",
 "rom_url":"",
 "rom_path":"rosx86.IMG",
-"rom_extra":"null"
+"-vga std -cpu core2duo"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/386491_react%20os_reactos_icon.png",
