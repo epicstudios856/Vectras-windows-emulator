@@ -4,7 +4,7 @@
 "rom_arch":"x86",
 "rom_size":"1.45GB",
 "rom_url":"",
-"rom_path":"/storage/emulated/0/Vectras/rosx86.IMG",
+"rom_path":"rosx86.IMG",
 "rom_extra":"null"
 },
 {
@@ -13,6 +13,6 @@
 "rom_arch":"x64",
 "rom_size":"2.23GB",
 "rom_url":"",
-"rom_path":"/storage/emulated/0/Vectras/rosx64.IMG",
+"rom_path":"rosx64.IMG",
 "rom_extra":"null"
 }]
