@@ -3,8 +3,8 @@
 "rom_name":"React OS",
 "rom_arch":"x86",
 "rom_avail":true,
-"rom_size":"364mb",
-"rom_url":"",
+"rom_size":"247.3mb",
+"rom_url":"https://drive.google.com/file/d/1h5-P7jJR9o4mcuSBbxi9qlOB0gfWifSR/view?usp=drivesdk",
 "rom_path":"rosx86.IMG",
 "rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
 },
