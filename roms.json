@@ -1,5 +1,5 @@
 [{
-"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/386491_react%20os_reactos_icon.png",
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/reactos-icon.jpg",
 "rom_name":"React OS",
 "rom_arch":"x86",
 "rom_avail":true,
@@ -9,7 +9,7 @@
 "rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
 },
 {
-"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/386491_react%20os_reactos_icon.png",
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/reactos-icon.jpg",
 "rom_name":"React OS",
 "rom_arch":"x64",
 "rom_avail":false,
