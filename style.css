@@ -4,10 +4,10 @@
 }
 @font-face {
   font-family: h1;
-  src:url(ARCADECLASSIC.ttf);
+  src:url(cairo_regular.ttf);
 }
 body{
-    background-color:#141414;
+    background-color:#17181b;
     color:white;
     font-family:h1;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
@@ -27,8 +27,8 @@ br{
 }
 .btn911{
     position: absolute;
-    bottom:50px;
-    left: 70px;
+    bottom:0px;
+    left: 0px;
     color:white;
     
 }
@@ -36,7 +36,8 @@ br{
     color:white;
     background-color:#0160c9;
     border:solid 0px;
-    width:140px;
+    max-width:150px;
+    width:100%;
     height:40px;
     font-family: ph2;
     border-radius:10px;
@@ -95,9 +96,10 @@ br{
 /* Caption text */
 .text {
     position: absolute;
-    bottom: 100px;
+    bottom: 20px;
     left: 30px;
     color:white;
+    font-size: small;
 }
 
 /* Number text (1/3 etc) */
@@ -155,7 +157,8 @@ br{
     background-color:#0160c9;
     border:solid 0 0 black;
     border-radius: 10px;
-    width:600px;
+    max-width:600px;
+    width:90%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .card {
@@ -207,6 +210,7 @@ br{
   bottom: 30px;
   left: 16px;
   color:white;
+  font-size: small;
 }
 #btn911:hover {
   transition: 0.7s;
@@ -422,4 +426,163 @@ br{
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Page content */
+.main {
+margin-left: 200px; /* Same as the width of the sidenav */
+}
+#menu2{
+ float: right;
+ margin-right: 50px;
+ margin-top: 30px;;
+ margin-left:-50px;
+ margin-bottom:-30px;
+ width:0px;
+ height:0px;
+ color:white;
+ border:solid #141414;
+ background-color: #141414;
+}
+.reveal{
+position: relative;
+transform: translateY(150px);
+opacity: 0;
+transition: 1s all ease;
+}
+
+.reveal.active{
+transform: translateY(0);
+opacity: 1;
+}
+.endpage{
+border:solid black;
+width: 100%;
+z-index: 0;
+max-width: 90000000px;
+}
+#endpic{
+width:400px;
+float:left;
+margin:50px;
+margin-top:70px;
+}
+.btn9112{
+position: absolute;
+bottom: 30px;
+left: 430px;
+color:white;
+}
+#ahmed{
+width: 190px;
+border-radius:10px;
+}
+#follow{
+margin:40px;
+}
+/* Style the tab */
+.tab {
+overflow: hidden;
+border: 3px solid Black;
+background-color: black;
+color:white;
+font-family: myFirstFont;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+background-color: inherit;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+font-family: myFirstFont;
+color:white;
+height:70px;
+font-size: x-large;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+background-color: white;
+color:black;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+background-color: white;
+color:black;
+}
+
+/* Style the tab content */
+.tabcontent {
+display: none;
+padding: 6px 12px;
+border: 1px solid black;
+border-top: none;
+}
+h3{
+color:white;
+font-family: MyFirstFont;
+font-size: xx-large;
+}
+#tt{
+color:white;
+font-size: xx-large;
+font-family: MyFirstFont;
+}
+#blu{
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+.lesh{
+  margin:20px;
+  margin-left:60px;
+}
+.priterm{
+  background-color: #141414;
+  border-radius: 10px;
+  border:10px 10px #141414;
 }

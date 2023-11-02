@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        p{
+            margin:20px;
+        }
+        .h11{
+            margin:20px;
+        }
+    </style>
+    <title>Vectras - Roms</title>
+</head>
+<body>
+    <div class="header">
+        <center>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="download.html">Download</a>
+            <a href="roms.html">Roms</a>
+            <a href="how.html">How to Download</a>
+            <a href="index.html#creator">Creators</a>
+            <a href="index.html#screen">ScreenShots</a>
+            <a href="index.html#about">About</a>
+            <a href="terms.html">Terms of Conditons</a>
+            <a href="privacy.html">Privacy Polices</a>
+        </div>
+            <img src="Textures/logo.png" id="logo" draggable="false">
+            
+          <span onclick="openNav1()">
+              <a href="#" id="menu2">
+                  <i class="fa fa-bars"></i>
+              </a>
+          </span>
+          
+          <br>
+        </center>
+    </div>
+    <div style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Textures/2222.jpg); max-height: 500px; max-width: 40000px; border-radius:10px; width:100%; display:inline-block;">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="lesh"><h1>Roms</h1></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="priterm">
+      <br>
+      <div class="h11"><h1>Download Roms</h1></div> 
+      <p>Due To it's an Alpha Testing We Couldn't Add All Roms in Alpha Relese So Unfortunally You Will Have To Deal With React OS For Now But Don't Worry We Will Keep Adding New Roms in The Near Future</p>
+      <br>
+
+      <center>
+          <span class="card">
+              <a href="https://drive.google.com/file/d/1h5-P7jJR9o4mcuSBbxi9qlOB0gfWifSR/view?usp=drivesdk"><img src="Textures/react.png" draggable="false" alt="Porsche 911 Carrera" id="card" style="width:50%"></a>
+              <span class="textlist"><h1>React OS X86</h1></span>
+          </span>
+      <span class="card">
+          <a href="#"><img src="Textures/react.png" draggable="false" alt="Porsche 718 Cayman" id="card" style="width:50%; opacity:0.4;"></a>
+          <span class="textlist"><h1>Coming Soon</h1></span>
+      </span>
+      <span class="card">
+          <a href="#"><img src="Textures/ubuntu.jpg" draggable="false" alt="Porsche 718 Boxster" id="card" style="width:50%; opacity:0.4;"></a>
+          <span class="textlist"><h1>Coming Soon</h1></span>
+      </span>
+      <span class="card">
+          <a href="#"><img src="Textures/vista.jpg" draggable="false" alt="Porsche 918 Spyder" id="card" style="width:50%; opacity:0.4;"></a>
+          <span class="textlist"><h1>Coming Soon</h1></span>
+      </span>
+      </span>
+      <span class="card">
+        <a href="#"><img src="Textures/7.jpg" draggable="false" alt="Porsche 911 Carrera" id="card" style="width:50%; opacity:0.4;"></a>
+        <span class="textlist"><h1>Coming Soon</h1></span>
+    </span>
+<span class="card">
+    <a href="#"><img src="Textures/8.1.jpg" draggable="false" alt="Porsche 718 Cayman" id="card" style="width:50%; opacity:0.4;"></a>
+    <span class="textlist"><h1>Coming Soon</h1></span>
+</span>
+<span class="card">
+    <a href="#"><img src="Textures/10.jpg" draggable="false" alt="Porsche 718 Boxster" id="card" style="width:50%; opacity:0.4;"></a>
+    <span class="textlist"><h1>Coming Soon</h1></span>
+</span>
+<span class="card">
+    <a href="#"><img src="Textures/11.jpg" draggable="false" alt="Porsche 918 Spyder" id="card" style="width:50%; opacity:0.4;"></a>
+    <span class="textlist"><h1>Coming Soon</h1></span>
+</span>
+</span>
+     </center>
+      <center>
+    </div>
+    </body>
+    <script>
+        let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+    function showSlides1(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides1");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+    slideIndex = 1;
+    showSlides5(slideIndex);
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides5(slideIndex += n);
+    }
+    
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides5(slideIndex = n);
+    }
+    
+    function showSlides5(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides5");
+      let dots = document.getElementsByClassName("demo5");
+      let captionText = document.getElementById("caption5");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+            /* Set the width of the side navigation to 250px */
+           function openNav1() {
+                document.getElementById("mySidenav").style.width = "250px";
+            } 
+    
+            /* Set the width of the side navigation to 0 */
+            function closeNav2() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+    </script>

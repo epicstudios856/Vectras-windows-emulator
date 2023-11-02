@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Vectras - Home</title>
 </head>
 <body>
     <div class="header">
         <center>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="download.html">Download</a>
+            <a href="roms.html">Roms</a>
+            <a href="how.html">How to Download</a>
+            <a href="index.html#creator">Creators</a>
+            <a href="index.html#screen">ScreenShots</a>
+            <a href="index.html#about">About</a>
+            <a href="terms.html">Terms of Conditons</a>
+            <a href="privacy.html">Privacy Polices</a>
+        </div>
             <img src="Textures/logo.png" id="logo" draggable="false">
+            
+          <span onclick="openNav1()">
+              <a href="#" id="menu2">
+                  <i class="fa fa-bars"></i>
+              </a>
+          </span>
+          
+          <br>
         </center>
     </div>
     <div class="container">
@@ -17,9 +38,8 @@
 
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
-              <img src="Textures/download.jpg" style="width:100%" draggable="false">
+              <img src="Textures/bg.jpg" style="width:100%" draggable="false" id="blu">
               <div class="text"><h1>Run Windows On Your Phone Easily Using Vectras</h1></div>
-              <div class="btn911"><button id="btn911">Download Now</button></div>
             </div>
         </div>
     </div>
@@ -29,7 +49,6 @@
     <span class="reveal">
     <center>
     <div class="card2">
-         <br>
         <h1>Emulateable Opearting Systems</h1>
         <br>
     </div>
@@ -43,19 +62,19 @@
         <center>
           <span class="reveal">
             <span class="card">
-                <a href="7.html"><img src="Textures/7.jpg" draggable="false" alt="Porsche 911 Carrera" id="card" style="width:50%"></a>
+                <a href="roms.html"><img src="Textures/7.jpg" draggable="false" alt="Porsche 911 Carrera" id="card" style="width:50%"></a>
                 <span class="textlist"><h1>Windows Xp</h1></span>
             </span>
         <span class="card">
-            <a href="8.1.html"><img src="Textures/8.1.jpg" draggable="false" alt="Porsche 718 Cayman" id="card" style="width:50%"></a>
+            <a href="roms.html"><img src="Textures/8.1.jpg" draggable="false" alt="Porsche 718 Cayman" id="card" style="width:50%"></a>
             <span class="textlist"><h1>Windows 7</h1></span>
         </span>
         <span class="card">
-            <a href="10.html"><img src="Textures/10.jpg" draggable="false" alt="Porsche 718 Boxster" id="card" style="width:50%"></a>
+            <a href="roms.html"><img src="Textures/10.jpg" draggable="false" alt="Porsche 718 Boxster" id="card" style="width:50%"></a>
             <span class="textlist"><h1>Windows 10</h1></span>
         </span>
         <span class="card">
-            <a href="11.html"><img src="Textures/11.jpg" draggable="false" alt="Porsche 918 Spyder" id="card" style="width:50%"></a>
+            <a href="roms.html"><img src="Textures/11.jpg" draggable="false" alt="Porsche 918 Spyder" id="card" style="width:50%"></a>
             <span class="textlist"><h1>Windows 11</h1></span>
         </span>
         </span>
@@ -69,11 +88,12 @@
         <br>
         <span class="reveal">
     <center>
+      <div id="screen"></div>
     <div class="card2">
-         <br>
         <h1>ScreenShots</h1>
         <br>
     </div>
+    
     </center>
     </span>
     <center>
@@ -146,9 +166,9 @@
       <br>
       <br>
       <br>
+      <div id="about"></div>
       <span class="reveal">
     <div class="card2">
-         <br>
         <h1>About Vectras</h1>
         <br>
     </div>
@@ -163,21 +183,12 @@
           <span class="reveal">
           <div style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Textures/ggbro.jpg); max-height: 500px; max-width: 40000px; border-radius:10px; width:100%; display:inline-block;">
             <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            
                   <div ><p id="kk">Vectras is a Software That Allows You to Emulate Windows Operating System on Android OS and It also Capable of Running x86 Programs and Games Using a Specific Kernal To Convert Programs From</p></div>
-                  <br>
                   <div ><p id="kk">x86_64 Based to ARM Based Apps With incredible Performance and Awesome Battery Life It's also Running Custom Roms For Windows Which Can Exploit all the Programs Without Wasting a Great Amount</p></div>
-                  <br>
                   <div><p id="kk">of Performance So Games Can Run Up to 60 FPS and Programs Such as Desktop Version of Microsoft Word Can Run Super Smoothly Also Capible of Running Retro Games Up To 1990s Era Easily On Any</p></div>
-                  <br>
                   <div ><p id = "kk">Android Phone and The Best Part About it Thats It Doesn't Require A Beefy Phone That Cost 1500$ To Able To Run Vectras Insted It Only Requires 4gb Ram and an 8 Core CPU and It will Run Like Butter Smooth</p></div>
+                  <div ><p id = "kk">Check&nbsp;<a href="privacy.html">Privacy Polices&nbsp;</a>and&nbsp;<a href="terms.html">Terms and Conditions</a></div>
                   <br>
                   <br>
                   <br>
@@ -189,9 +200,9 @@
         <br>
         <br>
     <center>
+      <div id="creator"></div>
       <span class="reveal">
     <div class="card2">
-         <br>
         <h1>Creators</h1>
         <br>
     </div>
@@ -203,32 +214,41 @@
         <br>
         <br>
         <br>
-        <span class="reveal"><
-        <div style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Textures/cre.jpg); max-height: 500px; max-width: 40000px; border-radius:10px; width:100%; display:inline-block;">
+        <div class="reveal">
+        <a href="https://ahmed-barakat.netlify.com" style="color:white; ">
         <div class="card22">
-          <img src="Textures/ahme.jpg" alt="Avatar" id = "ahmed" style="width:100%">
-          <div class="container">
+          <img src="Textures/ahme.jpg" alt="Avatar" id = "ahmed" style="width:100%" draggable="false">
+          <div class="container22">
             <h2><b>Ahmed Barakat</b></h2>
             <p>Website Developer</p>
           </div>
         </div>
+      </a>
         <div class="card22">
-          <img src="Textures/elbdan.jpg" alt="Avatar" id = "ahmed" style="width:100%">
-          <div class="container">
+          <a href="https://github.com/epicstudios856" style="color:white; ">
+          <img src="Textures/elbdan.jpg" alt="Avatar" id = "ahmed" style="width:74%" draggable="false">
+          <div class="22container">
+            <br>
             <h2><b>NourEldeen Elsayed</b></h2>
             <p>Application Developer</p>
+            <br>
           </div>
+        
         </div>
+      </a>
+        <a href="https://inverterworkgroup.netlify.com" style="color:white; ">
         <div class="card22">
-          <img src="Textures/inverter.jpg" alt="Avatar" id = "ahmed" style="width:70%">
-          <div class="container">
+          <img src="Textures/inverter.jpg" alt="Avatar" id = "ahmed" style="width:70%" draggable="false">
+          <div class="container22">
             <h2><b>Inverter Team</b></h2>
             <p>Kernals Developers</p>
           </div>
         </div>
+      
       </div>
+    </a>
       </center>
-    </span>
+    </div>
       <br>
       <br>
       <br>
@@ -310,5 +330,14 @@ function showSlides5(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+        /* Set the width of the side navigation to 250px */
+       function openNav1() {
+            document.getElementById("mySidenav").style.width = "250px";
+        } 
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav2() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
 </script>
 </html>

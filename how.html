@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        p{
+            margin:20px;
+        }
+        h3{
+          font-family: ph2;
+        }
+    </style>
+    <title>Vectras - How to Download Vectras</title>
+</head>
+<body>
+    <div class="header">
+        <center>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="download.html">Download</a>
+            <a href="roms.html">Roms</a>
+            <a href="how.html">How to Download</a>
+            <a href="index.html#creator">Creators</a>
+            <a href="index.html#screen">ScreenShots</a>
+            <a href="index.html#about">About</a>
+            <a href="terms.html">Terms of Conditons</a>
+            <a href="privacy.html">Privacy Polices</a>
+        </div>
+            <img src="Textures/logo.png" id="logo" draggable="false">
+            
+          <span onclick="openNav1()">
+              <a href="#" id="menu2">
+                  <i class="fa fa-bars"></i>
+              </a>
+          </span>
+          
+          <br>
+        </center>
+    </div>
+    <div style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Textures/cc.jpg); max-height: 500px; max-width: 40000px; border-radius:10px; width:100%; display:inline-block;">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="lesh"><h1>How To Download</h1></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="priterm">
+        <br>
+        <center>
+            <h1>1>Download Vectras</h1>
+            <br>
+            <p>Download Vectras From Play Store or From <a href="download.html">Download Page</a></p>
+            <p>And Then Just Click on Download Button</p>
+            <br>
+            <h1>2>Download Rom</h1>
+            <br>
+            <br>
+            <p>First Go To <a href="roms.html">Roms Page</a> Then Download The Rom Of The OS You Want To Run</p>
+            <p>After It's Installed Go to 'Download' Folder On Your Phone and Extract It</p>
+            <br>
+            <h1>3>Moving Rom File</h1>
+            <br>
+            <p>After Extracting it You Should Find a File That Looks Like This:</p>
+            <img src="Textures/2.jpg" style="Width:30%">
+            <p>After That Move it To /Android/data/</p>
+              <p>com.epicstudios.vectras/files/data</p>
+              <p>/Vectras/</p>
+            <p>So Vectras Can Idenify That You Have Installed an OS And It Should Look lIke This:</p>
+            <img src="Textures/1.jpg" style="Width:30%">
+            <br>
+            <h1>4>Run The App</h1>
+            <br>
+            <p>This Is The Simplest Part of Them All You Have to Run The App</p>
+            <p>After That Allow Premission</p>
+            <P>Then Choose The OS that You Have Installed The Rom For</P>
+            <p>Then Click on The Play Button In The Bottom</p>
+            <img src="Textures/s6.jpg" style="Width:14%">
+            <br>
+            <h3>And That's It :D</h3>
+        </center>
+    </div>
+    </body>
+    <script>
+        let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+    function showSlides1(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides1");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+    slideIndex = 1;
+    showSlides5(slideIndex);
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides5(slideIndex += n);
+    }
+    
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides5(slideIndex = n);
+    }
+    
+    function showSlides5(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides5");
+      let dots = document.getElementsByClassName("demo5");
+      let captionText = document.getElementById("caption5");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+            /* Set the width of the side navigation to 250px */
+           function openNav1() {
+                document.getElementById("mySidenav").style.width = "250px";
+            } 
+    
+            /* Set the width of the side navigation to 0 */
+            function closeNav2() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+    </script>
