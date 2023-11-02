@@ -99,9 +99,39 @@ br{
     bottom: 20px;
     left: 30px;
     color:white;
-    font-size: small;
 }
-
+@media only screen and (max-device-width: 480px) {
+  .text{
+    font-size: xx-small;
+    bottom: 10px;
+    left: 10px;
+  }
+}
+@media only screen and (min-device-width: 481px) {
+  .text{
+    font-size: small;
+  }
+}
+@media only screen and (max-device-width: 480px) {
+  p{
+    font-size: small;
+  }
+}
+@media only screen and (min-device-width: 481px) {
+  p{
+    font-size: medium;
+  }
+}
+@media only screen and (max-device-width: 480px) {
+  h1{
+      font-size: large;
+    }
+  }
+@media only screen and (min-device-width: 481px) {
+  h1{
+      font-size: xx-large;
+  }
+}
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -207,10 +237,19 @@ br{
 }
 .textlist{
   position: absolute;
-  bottom: 30px;
+  bottom: 10px;
   left: 16px;
   color:white;
-  font-size: small;
+}
+@media only screen and (max-device-width: 480px) {
+  .textlist{
+    font-size: x-small;
+  }
+}
+@media only screen and (min-device-width: 481px) {
+  .textlist{
+    font-size: small;
+  }
 }
 #btn911:hover {
   transition: 0.7s;
