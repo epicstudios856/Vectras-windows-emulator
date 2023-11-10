@@ -4,7 +4,7 @@
 "rom_arch":"x86",
 "rom_avail":true,
 "rom_size":"247.3MB",
-"rom_url":"https://drive.google.com/file/d/1h5-P7jJR9o4mcuSBbxi9qlOB0gfWifSR/view?usp=drivesdk",
+"rom_url":"https://drive.google.com/file/d/1FoFAZ7hvWHzgiwSxukzGKMtIC2wxywxk/view?usp=sharing",
 "rom_path":"rosx86.IMG",
 "rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
 },
