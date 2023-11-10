@@ -257,6 +257,29 @@
       </div>
 </body>
 <script src="animation.js"></script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCSgTOqqkU1lvFfDV3HVhSPi1JVG1Y2v6U",
+    authDomain: "vectras-1678b.firebaseapp.com",
+    projectId: "vectras-1678b",
+    storageBucket: "vectras-1678b.appspot.com",
+    messagingSenderId: "503162397535",
+    appId: "1:503162397535:web:2e2da1c09d4bc00ca24cea",
+    measurementId: "G-ZR7JTFWX5Z"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 <script>
     let slideIndex = 1;
 showSlides(slideIndex);
