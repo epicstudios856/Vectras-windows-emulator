@@ -43,7 +43,7 @@
 "rom_name":"Tiny 7",
 "rom_arch":"x86",
 "rom_avail":true,
-"rom_size":"696.8MB",
+"rom_size":"981.1MB",
 "rom_url":"https://drive.google.com/file/d/1NHqAtdL5Nkcd5gMLgDwXJnDm-yhPV2Oc/view?usp=drive_link",
 "rom_path":"t7x86.IMG",
 "rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
