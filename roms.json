@@ -57,4 +57,14 @@
 "rom_url":"",
 "rom_path":"t7x64.IMG",
 "rom_extra":"null"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/msdos-icon.jpg",
+"rom_name":"MSDOS",
+"rom_arch":"x86",
+"rom_avail":true,
+"rom_size":"3.49MB",
+"rom_url":"https://drive.google.com/file/d/1EoBfWuKaY5VFFav7pC83rIDU_0s94TXV/view?usp=sharing",
+"rom_path":"msdosx86.IMG",
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
 }]
