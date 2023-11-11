@@ -62,21 +62,21 @@
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
 "rom_name":"Kali Linux",
 "rom_arch":"x86",
-"rom_avail":false,
-"rom_size":"UNKNOWN",
-"rom_url":"",
+"rom_avail":true,
+"rom_size":"3.87GB",
+"rom_url":"https://drive.google.com/file/d/1w58du9rRdbdL_nxL9wIv5bgZ-k7hPi5_/view?usp=drive_link",
 "rom_path":"klx86.IMG",
-"rom_extra":"null"
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
 "rom_name":"Kali Linux",
 "rom_arch":"x64",
-"rom_avail":false,
-"rom_size":"UNKNOWN",
-"rom_url":"",
+"rom_avail":true,
+"rom_size":"4.43GB",
+"rom_url":"https://drive.google.com/file/d/1sE0yezOQZv8dyPpV7dMKil1ndy6_i7hD/view?usp=drive_link",
 "rom_path":"klx64.IMG",
-"rom_extra":"null"
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/msdos-icon.jpg",
