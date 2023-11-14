@@ -1,7 +1,7 @@
 {
-"versionCode": 1.0,
+"versionCode": 1.1,
 "cancellable": false,
-"size": "",
-"url": "" ,
-"Message": ""
+"size": "18.2MB",
+"url": "https://github.com/epicstudios856/Vectras-windows-emulator/raw/main/releases/apk/1.1b-2023-11-15.apk" ,
+"Message": "-minor changes\n-android 13 no permissions fix"
 }
