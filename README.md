@@ -17,6 +17,6 @@ Has The Capbility to Run Xp,7,10 (Linux Soon)
 * A Phone
 * ![images](https://github.com/ahmedbarakat2007/Vectras-windows-emulator/assets/118398763/8e453927-4235-4489-a100-9c909153bb2f)
 
-# Demo Version
+# Beta Version
 
-* Just Wait For It ;)
+* https://vectras.netlify.app/download
