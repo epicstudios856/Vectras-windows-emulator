@@ -42,7 +42,7 @@
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
 "rom_name":"Tiny 7",
 "rom_arch":"x86",
-"rom_avail":true,
+"rom_avail":false,
 "rom_size":"981.1MB",
 "rom_url":"https://drive.google.com/file/d/1NHqAtdL5Nkcd5gMLgDwXJnDm-yhPV2Oc/view?usp=drive_link",
 "rom_path":"t7x86.IMG",
