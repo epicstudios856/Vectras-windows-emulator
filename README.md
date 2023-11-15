@@ -2,6 +2,10 @@
 
 ![logo](https://github.com/ahmedbarakat2007/Vectras-windows-emulator/assets/118398763/096d4a06-8d3c-489f-9fb5-d273f361200c)
 
+[![Telegram Channel][ico-telegram]][link-telegram]
+[![Latest Version][ico-version]][link-releases]
+[![Software License][ico-license]](LICENSE.md)
+
 It's a Virtual Machine App for Android Which is Based on QEMU
 
 Has The Capbility to Run (ReactOS - Xp - 7 - Kali Linux)
@@ -36,3 +40,11 @@ Has The Capbility to Run (ReactOS - Xp - 7 - Kali Linux)
 # Releases
 
 https://github.com/epicstudios856/Vectras-VM-Android/tags
+
+[ico-telegram]: https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/res/images/telegram.svg
+[ico-version]: https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/res/images/version.svg
+[ico-license]: https://img.shields.io/badge/License-GPL_v2-blue.svg
+
+[link-telegram]: https://t.me/vectras_os
+[link-repo]: https://github.com/epicstudios856/Vectras-VM-Android/
+[link-releases]: https://github.com/epicstudios856/Vectras-VM-Android/releases/
