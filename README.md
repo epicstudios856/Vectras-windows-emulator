@@ -32,3 +32,7 @@ Has The Capbility to Run (ReactOS - Xp - 7 - Kali Linux)
 # Open Source Code
 
 * https://github.com/epicstudios856/Vectras-VM-Android
+
+# Releases
+
+https://github.com/epicstudios856/Vectras-VM-Android/tags
