@@ -32,11 +32,11 @@
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
 "rom_name":"Windows XP",
 "rom_arch":"x64",
-"rom_avail":false,
-"rom_size":"UNKNOWN",
-"rom_url":"",
+"rom_avail":true,
+"rom_size":"1.1GB",
+"rom_url":"https://drive.google.com/file/d/13dDHYc6j_LrCUwcwL9L-pm4DZQ3gqm5C/view?usp=drive_link",
 "rom_path":"txpx64.IMG",
-"rom_extra":"null"
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
