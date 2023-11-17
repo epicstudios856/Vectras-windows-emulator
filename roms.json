@@ -40,23 +40,23 @@
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
-"rom_name":"Tiny 7",
+"rom_name":"Windows 7 SN",
 "rom_arch":"x86",
-"rom_avail":false,
-"rom_size":"981.1MB",
-"rom_url":"https://vectras.netlify.app/roms",
-"rom_path":"t7x86.IMG",
+"rom_avail":true,
+"rom_size":"423.9MB",
+"rom_url":"https://drive.google.com/file/d/1NyI7X4bIs_7r0gUiF6h8l4l7Gqg5z5Oi/view?usp=drive_link",
+"rom_path":"sp7x86.IMG",
 "rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
-"rom_name":"Tiny 7",
+"rom_name":"Windows 7 SN",
 "rom_arch":"x64",
-"rom_avail":false,
-"rom_size":"UNKNOWN",
-"rom_url":"",
-"rom_path":"t7x64.IMG",
-"rom_extra":"null"
+"rom_avail":true,
+"rom_size":"436.4MB",
+"rom_url":"https://drive.google.com/file/d/1igUP7fZS8rArvMPW-xQoQkvm8l8Gc9zN/view?usp=drive_link",
+"rom_path":"sp7x86.IMG",
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
