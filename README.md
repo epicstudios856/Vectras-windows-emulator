@@ -31,7 +31,7 @@ Has The Capbility to Run (ReactOS - Xp - 7 - Kali Linux)
 
 # Beta Version
 
-* [Download 1.1b armeabi-v7a](https://github.com/epicstudios856/Vectras-VM-Android/releases/tag/1.1b)
+* [Download 1.2b armeabi-v7a]https://github.com/epicstudios856/Vectras-VM-Android/releases/download/1.2b/vectras-v1.2b-231117-armeabi-v7a.apk)
   
 # Open Source Code
 
