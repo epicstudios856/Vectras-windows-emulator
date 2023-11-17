@@ -39,7 +39,7 @@ Has The Capbility to Run (ReactOS - Xp - 7 - Kali Linux)
 
 # Releases
 
-https://github.com/epicstudios856/Vectras-VM-Android/tags
+* https://github.com/epicstudios856/Vectras-VM-Android/tags
 
 [ico-telegram]: https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/res/images/telegram.svg
 [ico-version]: https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/res/images/version.svg
