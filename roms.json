@@ -64,7 +64,7 @@
 "rom_arch":"x86",
 "rom_avail":true,
 "rom_size":"3.87GB",
-"rom_url":"https://vectras.netlify.app/roms",
+"rom_url":"https://drive.google.com/file/d/1w58du9rRdbdL_nxL9wIv5bgZ-k7hPi5_/view?usp=drive_link",
 "rom_path":"klx86.IMG",
 "rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
 },
@@ -74,8 +74,28 @@
 "rom_arch":"x64",
 "rom_avail":true,
 "rom_size":"4.43GB",
-"rom_url":"https://vectras.netlify.app/roms",
+"rom_url":"https://drive.google.com/file/d/1sE0yezOQZv8dyPpV7dMKil1ndy6_i7hD/view?usp=drive_link",
 "rom_path":"klx64.IMG",
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
+},
+  {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/mint.png",
+"rom_name":"Linux Mint",
+"rom_arch":"x86",
+"rom_avail":true,
+"rom_size":"802MB",
+"rom_url":"https://drive.google.com/file/d/1v2IJIsXF6Gvd-WfEeISBzIGNZBlKY5_3/view?usp=sharing",
+"rom_path":"lmx86.IMG",
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
+},
+  {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/redhat%20(2).png",
+"rom_name":"Red Hat 9",
+"rom_arch":"x86",
+"rom_avail":true,
+"rom_size":"570MB",
+"rom_url":"https://drive.google.com/file/d/1g4gegiLY8QfyI98bwjym0WlbvF2a3PiM/view?usp=drive_link",
+"rom_path":"redhatx86.IMG",
 "rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
 },
 {
