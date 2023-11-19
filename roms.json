@@ -89,7 +89,7 @@
 "rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
 },
   {
-"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/redhat%20(2).png",
+"rom_icon":"https://github.com/epicstudios856/Vectras-windows-emulator/blob/main/roms/icons/redhat%20(2).png",
 "rom_name":"Red Hat 9",
 "rom_arch":"x86",
 "rom_avail":true,
