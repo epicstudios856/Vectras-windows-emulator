@@ -18,7 +18,7 @@
 "rom_path":"rosx64.IMG",
 "rom_extra":"null"
 },
-  {
+{
 "rom_icon":"https://upload.wikimedia.org/wikipedia/commons/archive/0/02/20100913011744%21Tcl_logo.png",
 "rom_name":"Tiny Core",
 "rom_arch":"x86",
