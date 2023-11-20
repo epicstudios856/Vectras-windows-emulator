@@ -18,6 +18,16 @@
 "rom_path":"rosx64.IMG",
 "rom_extra":"null"
 },
+  {
+"rom_icon":"https://upload.wikimedia.org/wikipedia/commons/archive/0/02/20100913011744%21Tcl_logo.png",
+"rom_name":"Tiny Core",
+"rom_arch":"x86",
+"rom_avail":true,
+"rom_size":"246.8MB",
+"rom_url":"",
+"rom_path":"tcx86.IMG",
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
+},
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
 "rom_name":"Micro XP",
