@@ -24,7 +24,7 @@
 "rom_arch":"x86",
 "rom_avail":true,
 "rom_size":"246.8MB",
-"rom_url":"",
+"rom_url":"https://drive.google.com/file/d/1Sg639lJLSxQfWXO29tMVpa5iDuNLIg8e/view?usp=drive_link",
 "rom_path":"tcx86.IMG",
 "rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
 },
