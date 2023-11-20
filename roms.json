@@ -20,11 +20,21 @@
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
+"rom_name":"Micro XP",
+"rom_arch":"x86",
+"rom_avail":true,
+"rom_size":"138.2MB",
+"rom_url":"https://drive.google.com/file/d/1HOIdFLcGRsMwbJ9Xd-KD28CrcaIbCVEC/view?usp=drive_link",
+"rom_path":"mxpx86.IMG",
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
 "rom_name":"Windows XP",
 "rom_arch":"x86",
 "rom_avail":true,
 "rom_size":"696.8MB",
-"rom_url":"https://vectras.netlify.app/roms",
+"rom_url":"https://drive.google.com/file/d/11uk5YW6D4_lY6VNXXn9Dvdzps_3vpFzD/view?usp=drive_link",
 "rom_path":"txpx86.IMG",
 "rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
 },
@@ -79,7 +89,7 @@
 "rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
 },
   {
-"rom_icon":"https://github.com/epicstudios856/Vectras-windows-emulator/blob/main/roms/icons/mint.png",
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/mint.png",
 "rom_name":"Linux Mint 10",
 "rom_arch":"x86",
 "rom_avail":true,
@@ -89,7 +99,7 @@
 "rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
 },
   {
-"rom_icon":"https://github.com/epicstudios856/Vectras-windows-emulator/blob/main/roms/icons/redhat%20(2).png",
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/redhat%20(2).png",
 "rom_name":"Red Hat 9",
 "rom_arch":"x86",
 "rom_avail":true,
