@@ -126,5 +126,5 @@
 "rom_size":"3.49MB",
 "rom_url":"https://drive.google.com/file/d/1EoBfWuKaY5VFFav7pC83rIDU_0s94TXV/view?usp=sharing",
 "rom_path":"msdosx86.IMG",
-"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC"
 }]
