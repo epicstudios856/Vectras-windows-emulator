@@ -6,7 +6,7 @@
 "rom_size":"247.3MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"rosx86.IMG",
-"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/reactos-icon.jpg",
@@ -26,7 +26,7 @@
 "rom_size":"246.8MB",
 "rom_url":"https://drive.google.com/file/d/1Sg639lJLSxQfWXO29tMVpa5iDuNLIg8e/view?usp=drive_link",
 "rom_path":"tcx86.IMG",
-"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
@@ -36,7 +36,7 @@
 "rom_size":"138.2MB",
 "rom_url":"https://drive.google.com/file/d/1HOIdFLcGRsMwbJ9Xd-KD28CrcaIbCVEC/view?usp=drive_link",
 "rom_path":"mxpx86.IMG",
-"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
@@ -46,7 +46,7 @@
 "rom_size":"696.8MB",
 "rom_url":"https://drive.google.com/file/d/11uk5YW6D4_lY6VNXXn9Dvdzps_3vpFzD/view?usp=drive_link",
 "rom_path":"txpx86.IMG",
-"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
@@ -56,7 +56,7 @@
 "rom_size":"1.1GB",
 "rom_url":"https://drive.google.com/file/d/13dDHYc6j_LrCUwcwL9L-pm4DZQ3gqm5C/view?usp=drive_link",
 "rom_path":"txpx64.IMG",
-"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
@@ -66,7 +66,7 @@
 "rom_size":"423.9MB",
 "rom_url":"https://drive.google.com/file/d/1NyI7X4bIs_7r0gUiF6h8l4l7Gqg5z5Oi/view?usp=drive_link",
 "rom_path":"sp7x86.IMG",
-"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
@@ -75,8 +75,8 @@
 "rom_avail":true,
 "rom_size":"436.4MB",
 "rom_url":"https://drive.google.com/file/d/1igUP7fZS8rArvMPW-xQoQkvm8l8Gc9zN/view?usp=drive_link",
-"rom_path":"sp7x86.IMG",
-"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
+"rom_path":"sp7x64.IMG",
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
@@ -86,7 +86,7 @@
 "rom_size":"3.87GB",
 "rom_url":"https://drive.google.com/file/d/1w58du9rRdbdL_nxL9wIv5bgZ-k7hPi5_/view?usp=drive_link",
 "rom_path":"klx86.IMG",
-"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
@@ -96,7 +96,7 @@
 "rom_size":"4.43GB",
 "rom_url":"https://drive.google.com/file/d/1sE0yezOQZv8dyPpV7dMKil1ndy6_i7hD/view?usp=drive_link",
 "rom_path":"klx64.IMG",
-"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC"
 },
   {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/mint.png",
@@ -106,7 +106,7 @@
 "rom_size":"802MB",
 "rom_url":"https://drive.google.com/file/d/1v2IJIsXF6Gvd-WfEeISBzIGNZBlKY5_3/view?usp=sharing",
 "rom_path":"lmx86.IMG",
-"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC"
 },
   {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/redhat%20(2).png",
@@ -116,7 +116,7 @@
 "rom_size":"570MB",
 "rom_url":"https://drive.google.com/file/d/1g4gegiLY8QfyI98bwjym0WlbvF2a3PiM/view?usp=drive_link",
 "rom_path":"redhatx86.IMG",
-"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -smp 4"
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/msdos-icon.jpg",
