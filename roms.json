@@ -78,6 +78,16 @@
 "rom_path":"sp7x64.IMG",
 "rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -m 1G"
 },
+  {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/win8.1.png",
+"rom_name":"Windows 8.1 SL",
+"rom_arch":"x86",
+"rom_avail":true,
+"rom_size":"902.7MB",
+"rom_url":"https://drive.google.com/file/d/1rSMkTtuyVG3Ac016Tnm0y6ZQX_gUwaMo/view?usp=drive_link",
+"rom_path":"sl8.1x86.IMG",
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu EPYC -m 2G"
+},
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
 "rom_name":"Kali Linux",
