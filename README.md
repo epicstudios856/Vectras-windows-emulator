@@ -1,6 +1,6 @@
 # Vectras
 
-![logo](https://github.com/ahmedbarakat2007/Vectras-windows-emulator/assets/118398763/096d4a06-8d3c-489f-9fb5-d273f361200c)
+![logo](https://raw.githubusercontent.com/epicstudios856/Vectras-VM-Android/master/resources/vectras-logo.png)
 
 [![Telegram Channel][ico-telegram]][link-telegram]
 [![Latest Version][ico-version]][link-releases]
@@ -31,7 +31,7 @@ Has The Capbility to Run (ReactOS - Xp - 7 - Kali Linux)
 
 # Beta Version
 
-* [Download 1.2b armeabi-v7a](https://github.com/epicstudios856/Vectras-VM-Android/releases/download/1.2b/vectras-v1.2b-231117-armeabi-v7a.apk)
+* [Download 1.2b armeabi-v7a](https://vectras.netlify.app)
   
 # Open Source Code
 
