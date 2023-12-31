@@ -68,6 +68,17 @@
 "rom_path":"sp7x86.IMG",
 "rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
 },
+
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
+"rom_name":"Windows 7 SN",
+"rom_arch":"x64",
+"rom_avail":false,
+"rom_size":"486.9MB",
+"rom_url":"https://drive.google.com/file/d/1NyI7X4bIs_7r0gUiF6h8l4l7Gqg5z5Oi/view?usp=drive_link",
+"rom_path":"sp7x86.IMG",
+"rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
+},
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
 "rom_name":"Kali Linux",
