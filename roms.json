@@ -104,7 +104,7 @@
 "rom_arch":"x86",
 "rom_avail":true,
 "rom_size":"570MB",
-"rom_url":"https://drive.google.com/file/d/1g4gegiLY8QfyI98bwjym0WlbvF2a3PiM/view?usp=drive_link",
+"rom_url":"https://drive.google.com/file/d/18SsvtpyRHESvlaP27mFar63VVHag1uXZ/view?usp=drivesdk",
 "rom_path":"redhatx86.IMG",
 "rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
 },
