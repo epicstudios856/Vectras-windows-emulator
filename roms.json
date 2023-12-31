@@ -24,7 +24,7 @@
 "rom_arch":"x86",
 "rom_avail":true,
 "rom_size":"8.4MB",
-"rom_url":"https://drive.google.com/file/d/1Sg639lJLSxQfWXO29tMVpa5iDuNLIg8e/view?usp=drive_link",
+"rom_url":"https://drive.google.com/file/d/19zTl5j360bpo6Rw9z7Q9OZNS8qRClaxX/view?usp=drivesdk",
 "rom_path":"cex86.IMG",
 "rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
 },
