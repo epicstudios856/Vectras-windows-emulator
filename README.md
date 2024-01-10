@@ -29,10 +29,6 @@ Has The Capbility to Run (ReactOS - Xp - 7 - Kali Linux)
 
 * 8-Cores Snapdragon 720G or better
 
-# Beta Version
-
-* [Download 1.2b armeabi-v7a](https://vectras.netlify.app)
-  
 # Open Source Code
 
 * https://github.com/epicstudios856/Vectras-VM-Android
