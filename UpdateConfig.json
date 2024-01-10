@@ -1,7 +1,7 @@
 {
 "versionCode": 5,
-"cancellable": true,
-"size": "24.4MB",
+"cancellable": false,
+"size": "19.07MB",
 "url": "https://vectras.netlify.app/download" ,
 "Message": "new update!!"
 }
