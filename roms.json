@@ -120,7 +120,7 @@
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
-"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-01_22-53-11-899.jpg",
 "rom_name":"Android 1.6",
 "rom_arch":"x86",
 "rom_kernel":"android",
@@ -131,7 +131,7 @@
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
-"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-01_22-53-11-899.jpg",
 "rom_name":"Android 2.2",
 "rom_arch":"x86",
 "rom_kernel":"android",
@@ -142,7 +142,7 @@
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
-"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-01_22-53-11-899.jpg",
 "rom_name":"Android 4.4",
 "rom_arch":"x86",
 "rom_kernel":"android",
