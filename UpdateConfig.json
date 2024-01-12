@@ -1,6 +1,6 @@
 {
 "versionCode": 6,
-"cancellable": false,
+"cancellable": true,
 "size": "35MB",
 "url": "https://vectras.netlify.app/download" ,
 "Message": "all problems are fixed!!"
