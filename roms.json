@@ -146,7 +146,7 @@
 "rom_name":"Android 4.4",
 "rom_arch":"x86",
 "rom_kernel":"android",
-"rom_avail":"false,
+"rom_avail":false,
 "rom_size":"403.0MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"and4,4x86.IMG",
