@@ -1,7 +1,7 @@
 {
-"versionCode": 7,
+"versionCode": 8,
 "cancellable": true,
 "size": "35MB",
 "url": "https://vectras.netlify.app/download" ,
-"Message": "*SDL<b>*AVX<b/>*TB CACHE<b>*USB TABLET<b>*CUSTOM PARAMS<b>*improved ui and controls<b>*fixed some bugs"
+"Message": " * android13 fix (disable shared folder) <br> * avx fix <br> * minor changes <br>"
 }
