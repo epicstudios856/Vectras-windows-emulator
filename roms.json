@@ -58,7 +58,7 @@
 "rom_name":"Windows 2000",
 "rom_arch":"x86",
 "rom_kernel":"windows",
-"rom_avail":true,
+"rom_avail":false,
 "rom_size":"65.0MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"2klx86.IMG",
