@@ -1,0 +1,11 @@
+[{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/reactos-icon.jpg",
+"rom_name":"TEST ARM",
+"rom_arch":"aarch64",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"null",
+"rom_url":"https://vectras.netlify.app/roms",
+"rom_path":"test-arm.IMG",
+"rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
+}]
