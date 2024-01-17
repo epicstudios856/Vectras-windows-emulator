@@ -205,7 +205,7 @@
 "rom_size":"423.9MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"sp7x86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
@@ -216,7 +216,18 @@
 "rom_size":"486.9MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"sp7x64.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
+"rom_name":"Windows SL8.1",
+"rom_arch":"x86",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"902.68MB",
+"rom_url":"https://drive.google.com/file/d/1rSMkTtuyVG3Ac016Tnm0y6ZQX_gUwaMo/view?usp=drive_link",
+"rom_path":"sl8.1x86.IMG",
+"rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
