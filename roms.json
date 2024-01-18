@@ -7,7 +7,7 @@
 "rom_size":"247.3MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"rosx86.IMG",
-"rom_extra":"-vga std -net nic,model=ne2k_pci -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/reactos-icon.jpg",
@@ -29,7 +29,7 @@
 "rom_size":"38.2MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"95x86.IMG",
-"rom_extra":"-vga cirrus -net nic,model=e1000 -net user -device ac97"
+"rom_extra":"-vga cirrus -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
@@ -40,7 +40,7 @@
 "rom_size":"8.8MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"cex86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
@@ -51,7 +51,7 @@
 "rom_size":"40.50MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"ce6x86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
@@ -62,7 +62,7 @@
 "rom_size":"4.8MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"ce3x86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
@@ -73,7 +73,7 @@
 "rom_size":"65.0MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"2klx86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
@@ -84,7 +84,7 @@
 "rom_size":"7.7MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"2khhx86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
@@ -95,7 +95,7 @@
 "rom_size":"420.0MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"whistlerx86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
@@ -106,7 +106,7 @@
 "rom_size":"26.7MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"nt35x86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
@@ -117,7 +117,7 @@
 "rom_size":"47.9MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"chicagox86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
@@ -128,7 +128,7 @@
 "rom_size":"73.8MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"memphisx86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-01_22-53-11-899.jpg",
@@ -139,7 +139,7 @@
 "rom_size":"264.0MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"and16x86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-01_22-53-11-899.jpg",
@@ -150,7 +150,7 @@
 "rom_size":"97.1MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"and22x86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-01_22-53-11-899.jpg",
@@ -161,7 +161,7 @@
 "rom_size":"403.0MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"and44x86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
@@ -172,7 +172,7 @@
 "rom_size":"696.8MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"txpx86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
@@ -183,7 +183,7 @@
 "rom_size":"1.1GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"txpx64.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
@@ -194,7 +194,7 @@
 "rom_size":"119.0MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"tvistax86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
@@ -205,7 +205,7 @@
 "rom_size":"662MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"thpcx86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
@@ -216,7 +216,7 @@
 "rom_size":"423.9MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"sp7x86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
@@ -227,7 +227,7 @@
 "rom_size":"486.9MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"sp7x64.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
@@ -238,7 +238,7 @@
 "rom_size":"902.68MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"sl8.1x86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
@@ -249,7 +249,7 @@
 "rom_size":"381.0MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"t10x86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
@@ -260,7 +260,7 @@
 "rom_size":"3.87GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"klx86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
@@ -271,7 +271,7 @@
 "rom_size":"4.43GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"klx64.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
   {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/mint.png",
@@ -282,7 +282,7 @@
 "rom_size":"802MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"lmx86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/redhat%20(2).png",
@@ -293,7 +293,7 @@
 "rom_size":"570MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"redhatx86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-51-44-162.png",
@@ -304,7 +304,7 @@
 "rom_size":"48.9MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"dslx86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-47-25-878.png",
@@ -315,7 +315,7 @@
 "rom_size":"208MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"puppy5x86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/alpine.jpg",
@@ -326,7 +326,7 @@
 "rom_size":"534.2MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"alpinex86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device ac97"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-44-19-015.jpg",
@@ -348,5 +348,5 @@
 "rom_size":"3.49MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"msdosx86.IMG",
-"rom_extra":"-vga std -device ac97"
+"rom_extra":"-vga std"
 }]
