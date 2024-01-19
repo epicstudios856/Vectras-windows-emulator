@@ -246,7 +246,7 @@
 "rom_arch":"x86",
 "rom_kernel":"windows",
 "rom_avail":true,
-"rom_size":"381.0MB",
+"rom_size":"706.0MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"t10x86.IMG",
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
