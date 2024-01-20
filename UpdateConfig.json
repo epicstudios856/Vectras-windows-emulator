@@ -1,7 +1,7 @@
 {
-"versionCode": 8,
+"versionCode": 9,
 "cancellable": false,
 "size": "35MB",
 "url": "https://vectras.netlify.app/download" ,
-"Message": " * android13 fix (disable shared folder) <br> * avx fix <br> * minor changes <br>"
+"Message": " * CUSTOM ROM<br> * CONTROL UI IMPROVED<br> * FIX HOME UI<br> * CUSTOM SETTINGS FOR ANY ROM<br> * ADD LANGUAGES (RU, AR)<br> * UPDATE QEMU VGA BIOS (VMWARE, VIRTIO)<br> * IMPORT ISO FILES<br> * IMPORT SHARED FOLDER FILES (IN APPS & GAMES PAGE)<br> * ADDED SOUNDCARDS IN SDL<br> * INSTALL ROMS PAGE FIXED"
 }
