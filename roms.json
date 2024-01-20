@@ -1,4 +1,4 @@
-[{
+8[{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/reactos-icon.jpg",
 "rom_name":"React OS",
 "rom_arch":"x86",
@@ -191,7 +191,7 @@
 "rom_arch":"x86",
 "rom_kernel":"windows",
 "rom_avail":true,
-"rom_size":"119.0MB",
+"rom_size":"703.2MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"tvistax86.IMG",
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
