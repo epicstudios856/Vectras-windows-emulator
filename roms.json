@@ -210,24 +210,13 @@
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
 "rom_name":"Windows 7",
-"rom_arch":"x86",
-"rom_kernel":"windows",
-"rom_avail":true,
-"rom_size":"423.9MB",
-"rom_url":"https://vectras.netlify.app/roms",
-"rom_path":"sp7x86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
-},
-{
-"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
-"rom_name":"Windows 7",
 "rom_arch":"x64",
 "rom_kernel":"windows",
 "rom_avail":true,
-"rom_size":"486.9MB",
+"rom_size":"1.68GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"sp7x64.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga vmware -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
