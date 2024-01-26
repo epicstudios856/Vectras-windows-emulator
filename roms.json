@@ -29,7 +29,7 @@
 "rom_size":"38.2MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"95x86.IMG",
-"rom_extra":"-vga cirrus -net nic,model=e1000 -net user"
+"rom_extra":"-vga cirrus -net nic,model=ne2k_pci -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
@@ -69,7 +69,7 @@
 "rom_name":"Windows 2000",
 "rom_arch":"x86",
 "rom_kernel":"windows",
-"rom_avail":false,
+"rom_avail":true,
 "rom_size":"65.0MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"2klx86.IMG",
