@@ -350,7 +350,7 @@
 "rom_path":"kolibirix86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user -cdrom /storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/kolibirix86.iso -boot d"
 },
-
+{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/slax.jpg",
 "rom_name":"Slax OS",
 "rom_arch":"x86",
