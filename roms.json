@@ -359,7 +359,7 @@
 "rom_size":"269MB",
 "rom_url":"https://drive.google.com/file/d/1HcGVw0TnvSkBTlaK94_v1e_dfzRKX0bI/view?usp=drivesdk",
 "rom_path":"slaxx86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user"
+"rom_extra":"-vga cirrus -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/alpine.jpg",
