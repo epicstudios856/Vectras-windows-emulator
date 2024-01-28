@@ -347,7 +347,7 @@
 "rom_avail":true,
 "rom_size":"29.6MB",
 "rom_url":"https://www.dropbox.com/scl/fi/14i1xl3fzvsq8f4tik75y/kolibirix86.vbi?rlkey=6x9iysgzjwps29zb5qow3id8m&dl=0",
-"rom_path":"kolibirix86.iso",
+"rom_path":"kolibirix86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user -cdrom /storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/kolibirix86.iso -boot d"
 },
 {
