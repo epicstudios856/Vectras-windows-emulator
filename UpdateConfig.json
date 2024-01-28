@@ -1,7 +1,7 @@
 {
-"versionCode": 11,
+"versionCode": 10,
 "cancellable": false,
 "size": "35MB",
 "url": "https://vectras.netlify.app/download" ,
-"Message": "<font color='red'>BUILD 11</font><br> * CUSTOM ROM CVBI (IMPORT/EXPORT)<br> * IMPORT ISO FIXED<br> * DESKTOP CONTROLS<br> * UPDATE QEMU ASSETS<br> * CPU MODEL<br> * OFFLINE INSTALLATION (NEEDS LOGIN FOR FIRST TIME)<br> * MINOR CHANGES/FIXES<br> * MORE STABILITY<br> * ANDROID 14+ NOTIFICATION PERMISSION FIX"
+"Message": "<font color='red'>BUILD 10</font><br> * CUSTOM ROM CVBI (IMPORT/EXPORT)<br> * IMPORT ISO FIXED<br> * DESKTOP CONTROLS<br> * UPDATE QEMU ASSETS<br> * CPU MODEL<br> * OFFLINE INSTALLATION (NEEDS LOGIN FOR FIRST TIME)<br> * MINOR CHANGES/FIXES<br> * MORE STABILITY<br> * ANDROID 14+ NOTIFICATION PERMISSION FIX"
 }
