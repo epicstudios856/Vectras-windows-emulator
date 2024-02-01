@@ -370,7 +370,7 @@
 "rom_size":"534.2MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"alpinex86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga vmware -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-44-19-015.jpg",
