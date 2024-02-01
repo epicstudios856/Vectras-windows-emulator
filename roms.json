@@ -205,7 +205,7 @@
 "rom_size":"909MB",
 "rom_url":"https://drive.google.com/file/d/1Hw5su4mIj-QdRpnHBaMMlRUJP4wL8vj5/view?usp=drivesdk",
 "rom_path":"longhornx86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga cirrus -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
