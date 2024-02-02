@@ -17,9 +17,17 @@ Has The Capbility to Run (ReactOS - Xp - 7 - Kali Linux)
 
 # Minimum System Requirement
 
-* Android 7.0+
+# About
 
-* 4gb Ram (2gb free ram)
+It's a Virtual Machine App for Android Which is Based on QEMU
+
+Has The Capbility to Run (ReactOS - Xp - 7 - Kali Linux)
+
+# Minimum System Requirement
+
+* Android 5.0+
+
+* 3gb Ram (1gb free ram)
 
 * 8-Cores Snapdragon 450 (at Least)
 
@@ -33,6 +41,8 @@ Has The Capbility to Run (ReactOS - Xp - 7 - Kali Linux)
 * 8gb Ram (4gb free ram)
 
 * 8-Cores Snapdragon 720G or better
+
+* compiled kernel with KVM support
 
 # Open Source Code
 
