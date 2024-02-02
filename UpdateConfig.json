@@ -1,6 +1,6 @@
 {
 "versionCode": 10,
-"cancellable": false,
+"cancellable": true,
 "size": "33.6MB",
 "url": "https://vectras.netlify.app/download" ,
 "Message": "<font color='red'>BUILD 12<br>VERSION 2.7</font><br> * DATA EXPLORER (just simple for now)<br> * IMPORT HDDS (QCOW2, IMG, VMDK, VHD, etc...)<br> * CONTROLER MODES<br>   - GAME MODE<br>   - DESKTOP MODE<br> * MORE IMPROVMENTS TO PERFORMANCE AND APP<br> * MINOR CHANGES/FIXES"
