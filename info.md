@@ -1,7 +1,11 @@
-Vectras is a Software That Allows You to Emulate Windows Operating System on Android OS and It also Capable of Running x86 Programs and Games Using a Specific Kernal To Convert Programs From
+What is Vectras VM?
 
-x86-64 Based to ARM Based Apps With incredible Performance and Awesome Battery Life It's also Running Custom Roms For Windows Which Can Exploit all the Programs Without Wasting a Great Amount
+Vectras VM is a Virtual Machine Application That Allows You to Run Alot of Operating System Including (Windows, Mac OS X, Linux and etc...) not Just an HTML file That Makes You Feel Like Having a PC. NO It's The Actual Operating System With All of It's Programs and Yea They All Work Just Fine.
 
-of Performance So Games Can Run Up to 60 FPS and Programs Such as Desktop Version of Microsoft Word Can Run Super Smoothly Also Capible of Running Retro Games Up To 1990s Era Easily On Any
+Not Only Just Experiencing it but Also Running PC Programs on It. Of Course You Won't be Able to Run Modern Games on it but Retro Ones Works Just Fine With Good FPS But It's Not Only About Gaming You can Also Programme on It Using (Sublime Text Editor, Code::Blocks and etc..)
 
-Android Phone and The Best Part About it Thts It Doesn't Require A Beefy Phone That Cost 1500$ To Able To Run Vectras Insted It Only Requires 4gb Ram and an 8 Core CPU and It will Run Like Butter Smooth
+Sooo How is The Performance?
+
+Welll.. It Depends on The Hardware For Example if You Have a Low End Phone It Will Struggle With Modern OS (So We Added Windows 95,98,ME,CE and Kolibiri OS) and if You Have a Flagship Phone Modern OS Will Run Just Fine
+
+Soooo That's All You Want to Know about Vectras VM :D
