@@ -21,6 +21,17 @@
 "rom_extra":"null"
 },
 {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/windows1.jpg",
+"rom_name":"Windows 1.0",
+"rom_arch":"x86",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"1.1MB",
+"rom_url":"https://drive.google.com/file/d/1MVPKblume7rBecnd38_Yl4iuK4cR5x2_/view?usp=drivesdk",
+"rom_path":"win1x86.IMG",
+"rom_extra":"-vga cirrus"
+},
+{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
 "rom_name":"Windows 95",
 "rom_arch":"x86",
@@ -32,6 +43,28 @@
 "rom_extra":"-vga cirrus -net nic,model=ne2k_pci -net user"
 },
 {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
+"rom_name":"Windows Nashville",
+"rom_arch":"x86",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"61.0MB",
+"rom_url":"https://www.dropbox.com/scl/fi/y67ssjrk911jspz2kre7w/nashvillex86.vbi?rlkey=nopd9vhkcrnr6rtj8jhvxg4b0&dl=0",
+"rom_path":"nashvillex86.IMG",
+"rom_extra":"-vga cirrus -net nic,model=ne2k_pci -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
+"rom_name":"Windows 98",
+"rom_arch":"x86",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"83.1MB",
+"rom_url":"https://www.dropbox.com/scl/fi/z5np3zu0jlpft6q65yjx2/98x86.vbi?rlkey=lme3s7vwxkm3vl6vrx6j5d3a1&dl=0",
+"rom_path":"98x86.IMG",
+"rom_extra":"-vga cirrus -net nic,model=ne2k_pci -net user"
+},
+{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
 "rom_name":"Windows CE 5.0",
 "rom_arch":"x86",
@@ -40,7 +73,7 @@
 "rom_size":"8.8MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"cex86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user"
+"rom_extra":"-vga std -device ne2k_isa,iobase=0x300,irq=15,netdev=net1 -netdev type=user,id=net1"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
@@ -54,6 +87,39 @@
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
+"rom_name":"Windows Mobile 2003",
+"rom_arch":"x86",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"12.3MB",
+"rom_url":"https://drive.google.com/file/d/1MZBBksBfpKiCTLialpq66j2qdhZdWtcP/view?usp=drivesdk",
+"rom_path":"winm2003x86.IMG",
+"rom_extra":"-vga std -device ne2k_isa,iobase=0x300,irq=15,netdev=net1 -netdev type=user,id=net1"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
+"rom_name":"Pocket PC 2002",
+"rom_arch":"x86",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"9.2MB",
+"rom_url":"https://www.dropbox.com/scl/fi/qrjnr9fk63gyc6nbsksas/pp2002x86.vbi?rlkey=zxol9mheccby6tji02ywrowgg&dl=0",
+"rom_path":"pp2002x86.IMG",
+"rom_extra":"-vga std -device ne2k_isa,iobase=0x300,irq=15,netdev=net1 -netdev type=user,id=net1"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
+"rom_name":"Windows CE 2.0",
+"rom_arch":"x86",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"15MB",
+"rom_url":"https://www.dropbox.com/scl/fi/h5w0cuq4s9g776c4goger/ce2x86.vbi?rlkey=5sssyna3owufovw6zjgqhdv7q&dl=0",
+"rom_path":"ce2x86.IMG",
+"rom_extra":"-vga std -device ne2k_isa,iobase=0x300,irq=15,netdev=net1 -netdev type=user,id=net1"
+},
+{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
 "rom_name":"Windows CE 3.0",
 "rom_arch":"x86",
@@ -62,7 +128,7 @@
 "rom_size":"4.8MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"ce3x86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user"
+"rom_extra":"-vga std -device ne2k_isa,iobase=0x300,irq=15,netdev=net1 -netdev type=user,id=net1"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
@@ -70,10 +136,10 @@
 "rom_arch":"x86",
 "rom_kernel":"windows",
 "rom_avail":true,
-"rom_size":"51.6MB",
-"rom_url":"https://drive.google.com/file/d/1HoPPbsEk8Mvy662jeASxutBQp0WdSW6M/view?usp=drivesdk",
+"rom_size":"93.3MB",
+"rom_url":"https://www.dropbox.com/scl/fi/3h0tf9p9jta5i20cs2vfu/2klx86.vbi?rlkey=gqolcu9sx6li7cb7spb4kqaw8&dl=0",
 "rom_path":"2klx86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user"
+"rom_extra":"-vga vmware -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
@@ -176,14 +242,25 @@
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
+"rom_name":"Windows Server 2003",
+"rom_arch":"x86",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"9.2MB",
+"rom_url":"https://www.dropbox.com/scl/fi/lxjj9yhorqdiwkwqf1xt6/server2003x86.vbi?rlkey=nx0z221us8d13mrrknhxn16jt&dl=0",
+"rom_path":"server2003x86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
 "rom_name":"Windows XP",
 "rom_arch":"x86",
 "rom_kernel":"windows",
-"rom_avail":false,
-"rom_size":"696.8MB",
-"rom_url":"https://vectras.netlify.app/roms",
+"rom_avail":true,
+"rom_size":"842MB",
+"rom_url":"https://www.dropbox.com/scl/fi/dlxszv660jd6nkoh8cips/txpx86.vbi?rlkey=q37n5h6jm5xvlg01hsg1js62x&dl=0",
 "rom_path":"txpx86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga vmware -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
@@ -205,7 +282,7 @@
 "rom_size":"909MB",
 "rom_url":"https://drive.google.com/file/d/1Hw5su4mIj-QdRpnHBaMMlRUJP4wL8vj5/view?usp=drivesdk",
 "rom_path":"longhornx86.IMG",
-"rom_extra":"-vga cirrus -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
@@ -238,7 +315,7 @@
 "rom_size":"546MB",
 "rom_url":"https://drive.google.com/file/d/1I2hXBVulDsHfNggUhcEYbJO8zrg-swNe/view?usp=drivesdk",
 "rom_path":"sp7x86.IMG",
-"rom_extra":"-vga vmware -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga vmware -net nic,model=rtl8139 -net user -M q35"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
@@ -250,6 +327,17 @@
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"sp7x64.IMG",
 "rom_extra":"-vga vmware -net nic,model=rtl8139 -net user -M q35"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
+"rom_name":"Windows 8",
+"rom_arch":"x86",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"790MB",
+"rom_url":"https://drive.google.com/file/d/1Mb5AUhwMRY1kle2lVDsxP3L6KiMAQGC2/view?usp=drivesdk",
+"rom_path":"t8x86.IMG",
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
@@ -271,6 +359,17 @@
 "rom_size":"706.0MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"t10x86.IMG",
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
+"rom_name":"Tiny 10",
+"rom_arch":"x64",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"1.49GB",
+"rom_url":"https://drive.google.com/file/d/1M_ApB4o8-wc5VBG2SsTTLXJlxReIL-C3/view?usp=drivesdk",
+"rom_path":"t10x64.IMG",
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
@@ -318,15 +417,70 @@
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/redhat%20(2).png",
+"rom_name":"Red Hat 5",
+"rom_arch":"x86",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"116MB",
+"rom_url":"https://www.dropbox.com/scl/fi/blesldxi1c633g8fi29fq/redhat5x86.vbi?rlkey=6h2opdjrugi5kre17taapaf13&dl=0",
+"rom_path":"redhat5x86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/suse.jpg",
+"rom_name":"SuSE 5.2.0",
+"rom_arch":"x86",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"175MB",
+"rom_url":"https://www.dropbox.com/scl/fi/ek70t0ime8dzo1w7dsfma/suse5x86.vbi?rlkey=r24brzf1ghztrg55fuiz5zd70&dl=0",
+"rom_path":"suse5x86.IMG",
+"rom_extra":"-vga std -net nic,model=pcnet -net user"
+},
+{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-51-44-162.png",
 "rom_name":"Damn Small Linux",
 "rom_arch":"x86",
 "rom_kernel":"linux",
-"rom_avail":true,
+"rom_avail":false,
 "rom_size":"48.9MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"dslx86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/debian.jpg",
+"rom_name":"Debian 3.1",
+"rom_arch":"x86",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"144MB",
+"rom_url":"https://drive.google.com/file/d/1NHMACYR597LoemUCHAaPcEMIqUiiLJ2h/view?usp=drivesdk",
+"rom_path":"debian3x86.IMG",
+"rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/ubuntu.jpg",
+"rom_name":"Ubuntu 4",
+"rom_arch":"x86",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"348MB",
+"rom_url":"https://drive.google.com/file/d/1MW4QNYI28I-Z0S5ZBbMWQSS0Jdgj3dS_/view?usp=drivesdk",
+"rom_path":"ubuntux86.IMG",
+"rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/openbsd.jpg",
+"rom_name":"OpenBSD 5",
+"rom_arch":"x86",
+"rom_kernel":"other",
+"rom_avail":true,
+"rom_size":"187MB",
+"rom_url":"https://www.dropbox.com/scl/fi/fft6ra4e75p43w8zi15xx/openbsd5x86.vbi?rlkey=s9dxrucbvqx32uxy0hf27gfpz&dl=0",
+"rom_path":"openbsd5x86.IMG",
+"rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-47-25-878.png",
@@ -340,26 +494,59 @@
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/lindows.jpg",
+"rom_name":"Lindows OS 4",
+"rom_arch":"x86",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"363MB",
+"rom_url":"https://www.dropbox.com/scl/fi/7jvyd47ybsnbncjcrylc5/lindowsx86.vbi?rlkey=2lu3s7t3r7453kunrifdrgkkx&dl=0",
+"rom_path":"lindowsx86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
+},
+{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/kolibiri.jpg",
 "rom_name":"Kolibiri OS",
 "rom_arch":"x86",
 "rom_kernel":"other",
 "rom_avail":true,
 "rom_size":"29.6MB",
-"rom_url":"https://www.dropbox.com/scl/fi/14i1xl3fzvsq8f4tik75y/kolibirix86.vbi?rlkey=6x9iysgzjwps29zb5qow3id8m&dl=0",
+"rom_url":"https://drive.google.com/file/d/1I2GWKdO6hMQDp_UXUBWO6-bTZrzHPWn2/view?usp=drivesdk",
 "rom_path":"kolibirix86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/kolibiri.iso -boot d"
 },
 {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/templeos.jpg",
+"rom_name":"Temple OS",
+"rom_arch":"x86",
+"rom_kernel":"other",
+"rom_avail":true,
+"rom_size":"29.6MB",
+"rom_url":"https://www.dropbox.com/scl/fi/76l6pxpyqt40x1z5zhtbt/templeosx86.vbi?rlkey=94hj300qpj3r2oj5wnlwkikin&dl=0",
+"rom_path":"templeosx86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/temple.iso -boot d"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/tetris.jpg",
+"rom_name":"Tetris OS",
+"rom_arch":"x86",
+"rom_kernel":"other",
+"rom_avail":true,
+"rom_size":"11KB",
+"rom_url":"https://www.dropbox.com/scl/fi/1976ivvo2vuxxqw2orici/tetrisx86.vbi?rlkey=4e1xnd9z6cswuyuqzg15wvh6e&dl=0",
+"rom_path":"tetrisx86.IMG",
+"rom_extra":"-vga std"
+},
+{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/slax.jpg",
 "rom_name":"Slax OS",
-"rom_arch":"x86",
+"rom_arch":"x64",
 "rom_kernel":"linux",
 "rom_avail":true,
-"rom_size":"269MB",
-"rom_url":"https://drive.google.com/file/d/1HcGVw0TnvSkBTlaK94_v1e_dfzRKX0bI/view?usp=drivesdk",
-"rom_path":"slaxx86.IMG",
-"rom_extra":"-vga cirrus -net nic,model=e1000 -net user"
+"rom_size":"414MB",
+"rom_url":"https://www.dropbox.com/scl/fi/jtln8e5ybh6kst8ph00to/slaxx64.vbi?rlkey=jgx2mgao6cwhmse36qwvjfvt5&dl=0",
+"rom_path":"slaxx64.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/slax64.iso -boot d"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/alpine.jpg",
@@ -370,7 +557,7 @@
 "rom_size":"534.2MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"alpinex86.IMG",
-"rom_extra":"-vga vmware -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-44-19-015.jpg",
