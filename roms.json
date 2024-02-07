@@ -465,7 +465,7 @@
 "rom_name":"Ubuntu 4",
 "rom_arch":"x86",
 "rom_kernel":"linux",
-"rom_avail":true,
+"rom_avail"false,
 "rom_size":"348MB",
 "rom_url":"https://drive.google.com/file/d/1MW4QNYI28I-Z0S5ZBbMWQSS0Jdgj3dS_/view?usp=drivesdk",
 "rom_path":"ubuntux86.IMG",
