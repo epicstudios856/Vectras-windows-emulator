@@ -329,7 +329,7 @@
 "rom_extra":"-vga vmware -net nic,model=rtl8139 -net user -M q35"
 },
 {
-"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
+"rom_icon":"https://github.com/epicstudios856/Vectras-windows-emulator/blob/main/roms/icons/win8.1.png",
 "rom_name":"Windows 8",
 "rom_arch":"x86",
 "rom_kernel":"windows",
@@ -340,7 +340,7 @@
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
-"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
+"rom_icon":"https://github.com/epicstudios856/Vectras-windows-emulator/blob/main/roms/icons/win8.1.png",
 "rom_name":"Windows 8.1",
 "rom_arch":"x86",
 "rom_kernel":"windows",
@@ -462,14 +462,14 @@
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/ubuntu.jpg",
-"rom_name":"Ubuntu 4",
+"rom_name":"Ubuntu 12",
 "rom_arch":"x86",
 "rom_kernel":"linux",
-"rom_avail":false,
-"rom_size":"348MB",
-"rom_url":"https://drive.google.com/file/d/1MW4QNYI28I-Z0S5ZBbMWQSS0Jdgj3dS_/view?usp=drivesdk",
-"rom_path":"ubuntux86.IMG",
-"rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
+"rom_avail":true,
+"rom_size":"937.2MB",
+"rom_url":"https://drive.google.com/file/d/1-3LeYjSRiKDctgv0hZxUoWbpIBnmh8WG/view?usp=drive_link",
+"rom_path":"ubuntu12x86.IMG",
+"rom_extra":"-vga vmware -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/openbsd.jpg",
