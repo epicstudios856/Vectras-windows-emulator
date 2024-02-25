@@ -253,6 +253,17 @@
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
+"rom_name":"Windows FLP",
+"rom_arch":"x86",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"533MB",
+"rom_url":"https://archive.org/download/vectras-vm-roms/flpx86.vbi",
+"rom_path":"flpx86.IMG",
+"rom_extra":"-vga vmware -net nic,model=rtl8139 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
 "rom_name":"Windows XP",
 "rom_arch":"x86",
 "rom_kernel":"windows",
@@ -469,7 +480,7 @@
 "rom_size":"937.2MB",
 "rom_url":"https://drive.google.com/file/d/1-3LeYjSRiKDctgv0hZxUoWbpIBnmh8WG/view?usp=drive_link",
 "rom_path":"ubuntu12x86.IMG",
-"rom_extra":"-vga vmware -net nic,model=e1000 -net user"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/openbsd.jpg",
@@ -568,7 +579,18 @@
 "rom_size":"1.70GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"macos104x86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga vmware -net nic,model=rtl8139 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-44-19-015.jpg",
+"rom_name":"Mac OS X 10.5",
+"rom_arch":"x86",
+"rom_kernel":"apple",
+"rom_avail":true,
+"rom_size":"2.69GB",
+"rom_url":"https://archive.org/download/vectras-vm-roms/macos105x86.vbi",
+"rom_path":"macos105x86.IMG",
+"rom_extra":"-vga vmware -net nic,model=rtl8139 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/msdos-icon.jpg",
