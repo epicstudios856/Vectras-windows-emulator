@@ -570,6 +570,17 @@
 "rom_path":"alpinex86.IMG",
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
+  {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/kolibiri.jpg",
+"rom_name":"Haiku OS",
+"rom_arch":"x64",
+"rom_kernel":"other",
+"rom_avail":true,
+"rom_size":"1.0GB",
+"rom_url":"https://archive.org/download/vectras-vm-roms/haikux86.vbi",
+"rom_path":"haikux86.IMG",
+"rom_extra":"-vga vmware -net nic,model=e1000 -net user"
+},
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-44-19-015.jpg",
 "rom_name":"Mac OS X 10.4",
