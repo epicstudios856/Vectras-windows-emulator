@@ -571,7 +571,7 @@
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
   {
-"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/kolibiri.jpg",
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/haiku.png",
 "rom_name":"Haiku OS",
 "rom_arch":"x64",
 "rom_kernel":"other",
