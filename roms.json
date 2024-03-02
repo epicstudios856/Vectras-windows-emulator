@@ -384,6 +384,17 @@
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
+"rom_name":"Windows 10",
+"rom_arch":"ARM",
+"rom_kernel":"windows",
+"rom_avail":false,
+"rom_size":"3.8GB",
+"rom_url":"https://www.google.com",
+"rom_path":"win10arm.IMG",
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+},
+{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
 "rom_name":"Kali Linux",
 "rom_arch":"x86",
@@ -494,6 +505,39 @@
 "rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
 },
 {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/freebsd.jpg",
+"rom_name":"FreeBSD 11",
+"rom_arch":"x86",
+"rom_kernel":"other",
+"rom_avail":true,
+"rom_size":"708.7MB",
+"rom_url":"https://archive.org/download/vectras-vm-roms/freebsd11x86.vbi",
+"rom_path":"freebsd11x86.IMG",
+"rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/anonymos.jpg",
+"rom_name":"Anonym.OS",
+"rom_arch":"x86",
+"rom_kernel":"other",
+"rom_avail":true,
+"rom_size":"194MB",
+"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/anonymosx86.vbi",
+"rom_path":"anonymosx86.IMG",
+"rom_extra":"-vga std -net nic,model=ne2k_pci -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/anonymos.iso -boot d" 
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/anonymos.jpg",
+"rom_name":"BSDeviant",
+"rom_arch":"x86",
+"rom_kernel":"other",
+"rom_avail":true,
+"rom_size":"80.4MB",
+"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/bsdeviantx86.vbi",
+"rom_path":"anonymosx86.IMG",
+"rom_extra":"-vga std -net nic,model=ne2k_pci -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/anonymos.iso -boot d" 
+},
+{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-47-25-878.png",
 "rom_name":"Puppy Linux 5.2.0",
 "rom_arch":"x86",
@@ -570,7 +614,29 @@
 "rom_path":"alpinex86.IMG",
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
-  {
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/ponyos.jpg",
+"rom_name":"Pony OS",
+"rom_arch":"x64",
+"rom_kernel":"other",
+"rom_avail":true,
+"rom_size":"5.9MB",
+"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/ponyosx86.vbi",
+"rom_path":"ponyosx86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/ponyos.iso -boot d"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/hannamontana.jpg",
+"rom_name":"Hanna Montana Linux",
+"rom_arch":"x86",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"718.2MB",
+"rom_url":"https://archive.org/download/vectras-vm-roms/hannamontanax86.vbi",
+"rom_path":"hannamontanax86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
+},
+{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/haiku.png",
 "rom_name":"Haiku OS",
 "rom_arch":"x64",
@@ -582,7 +648,51 @@
 "rom_extra":"-vga vmware -net nic,model=e1000 -net user"
 },
 {
-"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-44-19-015.jpg",
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/90apple.jpg",
+"rom_name":"Mac OS 9.2",
+"rom_arch":"PPC",
+"rom_kernel":"apple",
+"rom_avail":false,
+"rom_size":"293.5MB",
+"rom_url":"https://archive.org/download/vectras-vm-roms/macos9ppc.vbi",
+"rom_path":"macos9ppc.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/apple.jpg",
+"rom_name":"Mac OS X 10.0",
+"rom_arch":"PPC",
+"rom_kernel":"apple",
+"rom_avail":false,
+"rom_size":"435.5MB",
+"rom_url":"https://archive.org/download/vectras-vm-roms/macos10ppc.vbi",
+"rom_path":"macos10ppc.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/apple.jpg",
+"rom_name":"Mac OS X 10.2",
+"rom_arch":"PPC",
+"rom_kernel":"apple",
+"rom_avail":false,
+"rom_size":"311MB",
+"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/macos102ppc.vbi",
+"rom_path":"macos102ppc.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/apple.jpg",
+"rom_name":"Mac OS X 10.4",
+"rom_arch":"PPC",
+"rom_kernel":"apple",
+"rom_avail":false,
+"rom_size":"2.3GB",
+"rom_url":"https://vectras.netlify.app/roms",
+"rom_path":"macos104ppc.IMG",
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/apple.jpg",
 "rom_name":"Mac OS X 10.4",
 "rom_arch":"x86",
 "rom_kernel":"apple",
@@ -593,7 +703,7 @@
 "rom_extra":"-vga vmware -net nic,model=rtl8139 -net user"
 },
 {
-"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-44-19-015.jpg",
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/apple.jpg",
 "rom_name":"Mac OS X 10.5",
 "rom_arch":"x86",
 "rom_kernel":"apple",
