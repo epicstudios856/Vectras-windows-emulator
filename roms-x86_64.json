@@ -33,6 +33,17 @@
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
+"rom_name":"Windows 3.1",
+"rom_arch":"x86",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"57.4MB",
+"rom_url":"https://drive.google.com/file/d/1Vq6Z_RI4437DN105BWFZ9hbbg4ocfnCM/view?usp=drive_link",
+"rom_path":"win31x86.IMG",
+"rom_extra":"-vga cirrus -net nic,model=pcnet -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
 "rom_name":"Windows 95",
 "rom_arch":"x86",
 "rom_kernel":"windows",
