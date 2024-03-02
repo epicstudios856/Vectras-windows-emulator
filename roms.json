@@ -582,7 +582,7 @@
 "rom_extra":"-vga std -net nic,model=ne2k_pci -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/anonymos.iso -boot d" 
 },
 {
-"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/anonymos.jpg",
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/bsdeviant.jpg",
 "rom_name":"BSDeviant",
 "rom_arch":"x86",
 "rom_kernel":"other",
