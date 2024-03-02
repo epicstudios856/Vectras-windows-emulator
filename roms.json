@@ -32,6 +32,17 @@
 "rom_extra":"-vga cirrus"
 },
 {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/windows1.jpg",
+"rom_name":"Windows 2.0",
+"rom_arch":"x86",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"2.3MB",
+"rom_url":"https://drive.google.com/file/d/1LNY4NcztcCl9eBBEnxkifryPCV3u0tx8/view?usp=sharing",
+"rom_path":"win2x86.IMG",
+"rom_extra":"-vga cirrus"
+},
+{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/Picsart_23-12-31_20-46-06-083.png",
 "rom_name":"Windows 3.1",
 "rom_arch":"x86",
