@@ -713,6 +713,50 @@
 "rom_path":"haikux86.IMG",
 "rom_extra":"-vga vmware -net nic,model=e1000 -net user"
 },
+  {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/90apple.jpg",
+"rom_name":"Mac OS 9.2",
+"rom_arch":"PPC",
+"rom_kernel":"apple",
+"rom_avail":false,
+"rom_size":"293.5MB",
+"rom_url":"https://archive.org/download/vectras-vm-roms/macos9ppc.vbi",
+"rom_path":"macos9ppc.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/apple.jpg",
+"rom_name":"Mac OS X 10.0",
+"rom_arch":"PPC",
+"rom_kernel":"apple",
+"rom_avail":false,
+"rom_size":"435.5MB",
+"rom_url":"https://archive.org/download/vectras-vm-roms/macos10ppc.vbi",
+"rom_path":"macos10ppc.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/apple.jpg",
+"rom_name":"Mac OS X 10.2",
+"rom_arch":"PPC",
+"rom_kernel":"apple",
+"rom_avail":false,
+"rom_size":"311MB",
+"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/macos102ppc.vbi",
+"rom_path":"macos102ppc.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/apple.jpg",
+"rom_name":"Mac OS X 10.4",
+"rom_arch":"PPC",
+"rom_kernel":"apple",
+"rom_avail":false,
+"rom_size":"2.3GB",
+"rom_url":"https://vectras.netlify.app/roms",
+"rom_path":"macos104ppc.IMG",
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+},
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/apple.jpg",
 "rom_name":"Mac OS X 10.4",
