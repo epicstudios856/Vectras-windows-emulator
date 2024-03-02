@@ -1,11 +1,11 @@
 [{
-"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/reactos-icon.jpg",
-"rom_name":"TEST ARM",
-"rom_arch":"aarch64",
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
+"rom_name":"Windows 10",
+"rom_arch":"ARM",
 "rom_kernel":"windows",
-"rom_avail":true,
-"rom_size":"null",
-"rom_url":"https://vectras.netlify.app/roms",
-"rom_path":"test-arm.IMG",
-"rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
+"rom_avail":false,
+"rom_size":"3.8GB",
+"rom_url":"https://www.google.com",
+"rom_path":"win10arm.IMG",
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 }]
