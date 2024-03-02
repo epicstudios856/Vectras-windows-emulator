@@ -231,13 +231,46 @@
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-01_22-53-11-899.jpg",
+"rom_name":"Android 3.2",
+"rom_arch":"x86",
+"rom_kernel":"android",
+"rom_avail":true,
+"rom_size":"197.1MB",
+"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/android32x86.vbi",
+"rom_path":"android32x86.IMG",
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-01_22-53-11-899.jpg",
+"rom_name":"Android 4.0.4 Lite",
+"rom_arch":"x86",
+"rom_kernel":"android",
+"rom_avail":true,
+"rom_size":"139.0MB",
+"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/androidlite404x86.vbi",
+"rom_path":"androidlite404x86.IMG",
+"rom_extra":"-vga vmware -net nic,model=rtl8139 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-01_22-53-11-899.jpg",
 "rom_name":"Android 4.4",
 "rom_arch":"x86",
 "rom_kernel":"android",
 "rom_avail":true,
 "rom_size":"403.0MB",
-"rom_url":"https://vectras.netlify.app/roms",
+"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/androidlite404x86.vbi",
 "rom_path":"and44x86.IMG",
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/blackberry.jpg",
+"rom_name":"Lineage OS",
+"rom_arch":"x86",
+"rom_kernel":"android",
+"rom_avail":true,
+"rom_size":"780MB",
+"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/blackberryosx86.vbi",
+"rom_path":"blackberryosx86.IMG",
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
 {
@@ -484,6 +517,17 @@
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/ubuntu.jpg",
+"rom_name":"Ubuntu 4",
+"rom_arch":"x86",
+"rom_kernel":"linux",
+"rom_avail":false,
+"rom_size":"800MB",
+"rom_url":"lol",
+"rom_path":"ubuntu4x86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/ubuntu.jpg",
 "rom_name":"Ubuntu 12",
 "rom_arch":"x86",
 "rom_kernel":"linux",
@@ -491,6 +535,17 @@
 "rom_size":"937.2MB",
 "rom_url":"https://drive.google.com/file/d/1-3LeYjSRiKDctgv0hZxUoWbpIBnmh8WG/view?usp=drive_link",
 "rom_path":"ubuntu12x86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/ubuntu.jpg",
+"rom_name":"Ubuntu 20",
+"rom_arch":"x64",
+"rom_kernel":"linux",
+"rom_avail":false,
+"rom_size":"3.5GB",
+"rom_url":"lol",
+"rom_path":"ubuntu20x86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
@@ -534,8 +589,8 @@
 "rom_avail":true,
 "rom_size":"80.4MB",
 "rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/bsdeviantx86.vbi",
-"rom_path":"anonymosx86.IMG",
-"rom_extra":"-vga std -net nic,model=ne2k_pci -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/anonymos.iso -boot d" 
+"rom_path":"bsdeviantx86.IMG",
+"rom_extra":"-vga std -net nic,model=ne2k_pci -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/bsdeviant.iso -boot d" 
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-47-25-878.png",
@@ -546,6 +601,17 @@
 "rom_size":"208MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"puppy5x86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-47-25-878.png",
+"rom_name":"Puppy Linux 4.1.7",
+"rom_arch":"x86",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"101MB",
+"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/puppy4x86.vbi",
+"rom_path":"puppy4x86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
