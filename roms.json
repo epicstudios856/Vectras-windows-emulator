@@ -280,7 +280,7 @@
 "rom_kernel":"android",
 "rom_avail":true,
 "rom_size":"403.0MB",
-"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/androidlite404x86.vbi",
+"rom_url":"https://drive.google.com/file/d/19RCKmvCY_-pyM1dnK5e3ZWoybDlpl6k8/view?usp=drivesdk",
 "rom_path":"and44x86.IMG",
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
