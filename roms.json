@@ -520,11 +520,33 @@
 "rom_name":"Damn Small Linux",
 "rom_arch":"x86",
 "rom_kernel":"linux",
-"rom_avail":false,
-"rom_size":"48.9MB",
-"rom_url":"https://vectras.netlify.app/roms",
+"rom_avail":true,
+"rom_size":"49.3MB",
+"rom_url":"https://drive.google.com/file/d/1FoZGoxSB6eWoB6ElKfuFQw9HjXuWApoK/view?usp=sharing",
 "rom_path":"dslx86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user"
+"rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/dsl.iso -boot d"
+},
+  {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/xpud.jpg",
+"rom_name":"XPud",
+"rom_arch":"x86",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"63.2MB",
+"rom_url":"https://drive.google.com/file/d/1Ka-HmMHFtU7zpgbQCSigmunK8WUQmwsN/view?usp=sharing",
+"rom_path":"xpudx86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/xpud.iso -boot d"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/anonymous.png",
+"rom_name":"Anonymous OS",
+"rom_arch":"x86",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"1.35GB",
+"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/anonymousx86.vbi",
+"rom_path":"anonymousx86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/anonymous.iso -boot d"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/debian.jpg",
