@@ -27,7 +27,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"1.1MB",
-"rom_url":"https://drive.google.com/file/d/1MVPKblume7rBecnd38_Yl4iuK4cR5x2_/view?usp=drivesdk",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"win1x86.IMG",
 "rom_extra":"-vga cirrus"
 },
@@ -38,7 +38,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"2.3MB",
-"rom_url":"https://drive.google.com/file/d/1LNY4NcztcCl9eBBEnxkifryPCV3u0tx8/view?usp=sharing",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"win2x86.IMG",
 "rom_extra":"-vga cirrus"
 },
@@ -49,7 +49,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"57.4MB",
-"rom_url":"https://drive.google.com/file/d/1Vq6Z_RI4437DN105BWFZ9hbbg4ocfnCM/view?usp=drive_link",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"win31x86.IMG",
 "rom_extra":"-vga cirrus -net nic,model=pcnet -net user"
 },
@@ -71,7 +71,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"61.0MB",
-"rom_url":"https://www.dropbox.com/scl/fi/y67ssjrk911jspz2kre7w/nashvillex86.vbi?rlkey=nopd9vhkcrnr6rtj8jhvxg4b0&dl=0",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"nashvillex86.IMG",
 "rom_extra":"-vga cirrus -net nic,model=ne2k_pci -net user"
 },
@@ -82,7 +82,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"83.1MB",
-"rom_url":"https://www.dropbox.com/scl/fi/z5np3zu0jlpft6q65yjx2/98x86.vbi?rlkey=lme3s7vwxkm3vl6vrx6j5d3a1&dl=0",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"98x86.IMG",
 "rom_extra":"-vga cirrus -net nic,model=ne2k_pci -net user"
 },
@@ -115,7 +115,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"12.3MB",
-"rom_url":"https://drive.google.com/file/d/1MZBBksBfpKiCTLialpq66j2qdhZdWtcP/view?usp=drivesdk",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"winm2003x86.IMG",
 "rom_extra":"-vga std -device ne2k_isa,iobase=0x300,irq=15,netdev=net1 -netdev type=user,id=net1"
 },
@@ -126,7 +126,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"9.2MB",
-"rom_url":"https://www.dropbox.com/scl/fi/qrjnr9fk63gyc6nbsksas/pp2002x86.vbi?rlkey=zxol9mheccby6tji02ywrowgg&dl=0",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"pp2002x86.IMG",
 "rom_extra":"-vga std -device ne2k_isa,iobase=0x300,irq=15,netdev=net1 -netdev type=user,id=net1"
 },
@@ -137,7 +137,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"15MB",
-"rom_url":"https://www.dropbox.com/scl/fi/h5w0cuq4s9g776c4goger/ce2x86.vbi?rlkey=5sssyna3owufovw6zjgqhdv7q&dl=0",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"ce2x86.IMG",
 "rom_extra":"-vga std -device ne2k_isa,iobase=0x300,irq=15,netdev=net1 -netdev type=user,id=net1"
 },
@@ -159,7 +159,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"93.3MB",
-"rom_url":"https://www.dropbox.com/scl/fi/3h0tf9p9jta5i20cs2vfu/2klx86.vbi?rlkey=gqolcu9sx6li7cb7spb4kqaw8&dl=0",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"2klx86.IMG",
 "rom_extra":"-vga vmware -net nic,model=rtl8139 -net user"
 },
@@ -225,7 +225,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"308MB",
-"rom_url":"https://drive.google.com/file/d/1HyuLXIqB-AmjmVTJfBHVIJlIx-WFtdzK/view?usp=drivesdk",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"neptunex86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
@@ -258,7 +258,7 @@
 "rom_kernel":"android",
 "rom_avail":true,
 "rom_size":"197.1MB",
-"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/android32x86.vbi",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"android32x86.IMG",
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
@@ -269,7 +269,7 @@
 "rom_kernel":"android",
 "rom_avail":true,
 "rom_size":"139.0MB",
-"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/androidlite404x86.vbi",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"androidlite404x86.IMG",
 "rom_extra":"-vga vmware -net nic,model=rtl8139 -net user"
 },
@@ -280,7 +280,7 @@
 "rom_kernel":"android",
 "rom_avail":true,
 "rom_size":"403.0MB",
-"rom_url":"https://drive.google.com/file/d/19RCKmvCY_-pyM1dnK5e3ZWoybDlpl6k8/view?usp=drivesdk",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"and44x86.IMG",
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
@@ -302,7 +302,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"9.2MB",
-"rom_url":"https://www.dropbox.com/scl/fi/lxjj9yhorqdiwkwqf1xt6/server2003x86.vbi?rlkey=nx0z221us8d13mrrknhxn16jt&dl=0",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"server2003x86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
@@ -324,7 +324,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"842MB",
-"rom_url":"https://www.dropbox.com/scl/fi/dlxszv660jd6nkoh8cips/txpx86.vbi?rlkey=q37n5h6jm5xvlg01hsg1js62x&dl=0",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"txpx86.IMG",
 "rom_extra":"-vga vmware -net nic,model=rtl8139 -net user"
 },
@@ -346,7 +346,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"909MB",
-"rom_url":"https://drive.google.com/file/d/1Hw5su4mIj-QdRpnHBaMMlRUJP4wL8vj5/view?usp=drivesdk",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"longhornx86.IMG",
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
@@ -379,7 +379,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"546MB",
-"rom_url":"https://drive.google.com/file/d/1I2hXBVulDsHfNggUhcEYbJO8zrg-swNe/view?usp=drivesdk",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"sp7x86.IMG",
 "rom_extra":"-vga vmware -net nic,model=rtl8139 -net user -M q35"
 },
@@ -401,7 +401,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"790MB",
-"rom_url":"https://drive.google.com/file/d/1Mb5AUhwMRY1kle2lVDsxP3L6KiMAQGC2/view?usp=drivesdk",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"t8x86.IMG",
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
@@ -434,7 +434,7 @@
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"1.49GB",
-"rom_url":"https://drive.google.com/file/d/1M_ApB4o8-wc5VBG2SsTTLXJlxReIL-C3/view?usp=drivesdk",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"t10x64.IMG",
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
@@ -500,7 +500,7 @@
 "rom_kernel":"linux",
 "rom_avail":true,
 "rom_size":"116MB",
-"rom_url":"https://www.dropbox.com/scl/fi/blesldxi1c633g8fi29fq/redhat5x86.vbi?rlkey=6h2opdjrugi5kre17taapaf13&dl=0",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"redhat5x86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
@@ -511,7 +511,7 @@
 "rom_kernel":"linux",
 "rom_avail":true,
 "rom_size":"175MB",
-"rom_url":"https://www.dropbox.com/scl/fi/ek70t0ime8dzo1w7dsfma/suse5x86.vbi?rlkey=r24brzf1ghztrg55fuiz5zd70&dl=0",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"suse5x86.IMG",
 "rom_extra":"-vga std -net nic,model=pcnet -net user"
 },
@@ -522,7 +522,7 @@
 "rom_kernel":"linux",
 "rom_avail":true,
 "rom_size":"49.3MB",
-"rom_url":"https://drive.google.com/file/d/1FoZGoxSB6eWoB6ElKfuFQw9HjXuWApoK/view?usp=sharing",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"dslx86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/dsl.iso -boot d"
 },
@@ -533,7 +533,7 @@
 "rom_kernel":"linux",
 "rom_avail":true,
 "rom_size":"63.2MB",
-"rom_url":"https://drive.google.com/file/d/1Ka-HmMHFtU7zpgbQCSigmunK8WUQmwsN/view?usp=sharing",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"xpudx86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/xpud.iso -boot d"
 },
@@ -544,7 +544,7 @@
 "rom_kernel":"linux",
 "rom_avail":true,
 "rom_size":"1.35GB",
-"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/anonymousx86.vbi",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"anonymousx86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/anonymous.iso -boot d"
 },
@@ -555,7 +555,7 @@
 "rom_kernel":"linux",
 "rom_avail":true,
 "rom_size":"144MB",
-"rom_url":"https://drive.google.com/file/d/1NHMACYR597LoemUCHAaPcEMIqUiiLJ2h/view?usp=drivesdk",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"debian3x86.IMG",
 "rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
 },
@@ -577,7 +577,7 @@
 "rom_kernel":"linux",
 "rom_avail":true,
 "rom_size":"937.2MB",
-"rom_url":"https://drive.google.com/file/d/1-3LeYjSRiKDctgv0hZxUoWbpIBnmh8WG/view?usp=drive_link",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"ubuntu12x86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
@@ -599,7 +599,7 @@
 "rom_kernel":"other",
 "rom_avail":true,
 "rom_size":"187MB",
-"rom_url":"https://www.dropbox.com/scl/fi/fft6ra4e75p43w8zi15xx/openbsd5x86.vbi?rlkey=s9dxrucbvqx32uxy0hf27gfpz&dl=0",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"openbsd5x86.IMG",
 "rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
 },
@@ -610,7 +610,7 @@
 "rom_kernel":"other",
 "rom_avail":true,
 "rom_size":"708.7MB",
-"rom_url":"https://archive.org/download/vectras-vm-roms/freebsd11x86.vbi",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"freebsd11x86.IMG",
 "rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
 },
@@ -621,7 +621,7 @@
 "rom_kernel":"other",
 "rom_avail":true,
 "rom_size":"194MB",
-"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/anonymosx86.vbi",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"anonymosx86.IMG",
 "rom_extra":"-vga std -net nic,model=ne2k_pci -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/anonymos.iso -boot d" 
 },
@@ -632,7 +632,7 @@
 "rom_kernel":"other",
 "rom_avail":true,
 "rom_size":"80.4MB",
-"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/bsdeviantx86.vbi",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"bsdeviantx86.IMG",
 "rom_extra":"-vga std -net nic,model=ne2k_pci -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/bsdeviant.iso -boot d" 
 },
@@ -654,7 +654,7 @@
 "rom_kernel":"linux",
 "rom_avail":true,
 "rom_size":"101MB",
-"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/puppy4x86.vbi",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"puppy4x86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
@@ -665,7 +665,7 @@
 "rom_kernel":"linux",
 "rom_avail":true,
 "rom_size":"363MB",
-"rom_url":"https://www.dropbox.com/scl/fi/7jvyd47ybsnbncjcrylc5/lindowsx86.vbi?rlkey=2lu3s7t3r7453kunrifdrgkkx&dl=0",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"lindowsx86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
@@ -676,7 +676,7 @@
 "rom_kernel":"other",
 "rom_avail":true,
 "rom_size":"29.6MB",
-"rom_url":"https://drive.google.com/file/d/1I2GWKdO6hMQDp_UXUBWO6-bTZrzHPWn2/view?usp=drivesdk",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"kolibirix86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/kolibiri.iso -boot d"
 },
@@ -686,8 +686,8 @@
 "rom_arch":"x86",
 "rom_kernel":"other",
 "rom_avail":true,
-"rom_size":"29.6MB",
-"rom_url":"https://www.dropbox.com/scl/fi/76l6pxpyqt40x1z5zhtbt/templeosx86.vbi?rlkey=94hj300qpj3r2oj5wnlwkikin&dl=0",
+"rom_size":"15.5MB",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"templeosx86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/temple.iso -boot d"
 },
@@ -698,7 +698,7 @@
 "rom_kernel":"other",
 "rom_avail":true,
 "rom_size":"11KB",
-"rom_url":"https://www.dropbox.com/scl/fi/1976ivvo2vuxxqw2orici/tetrisx86.vbi?rlkey=4e1xnd9z6cswuyuqzg15wvh6e&dl=0",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"tetrisx86.IMG",
 "rom_extra":"-vga std"
 },
@@ -709,7 +709,7 @@
 "rom_kernel":"linux",
 "rom_avail":true,
 "rom_size":"414MB",
-"rom_url":"https://www.dropbox.com/scl/fi/jtln8e5ybh6kst8ph00to/slaxx64.vbi?rlkey=jgx2mgao6cwhmse36qwvjfvt5&dl=0",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"slaxx64.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/slax64.iso -boot d"
 },
@@ -731,7 +731,7 @@
 "rom_kernel":"other",
 "rom_avail":true,
 "rom_size":"5.9MB",
-"rom_url":"https://github.com/ahmedbarakat2007/Vectras-VM-Roms/releases/download/roms/ponyosx86.vbi",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"ponyosx86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/ponyos.iso -boot d"
 },
@@ -742,7 +742,7 @@
 "rom_kernel":"linux",
 "rom_avail":true,
 "rom_size":"718.2MB",
-"rom_url":"https://archive.org/download/vectras-vm-roms/hannamontanax86.vbi",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"hannamontanax86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
@@ -753,7 +753,7 @@
 "rom_kernel":"other",
 "rom_avail":true,
 "rom_size":"1.0GB",
-"rom_url":"https://archive.org/download/vectras-vm-roms/haikux86.vbi",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"haikux86.IMG",
 "rom_extra":"-vga vmware -net nic,model=e1000 -net user"
 },
@@ -819,7 +819,7 @@
 "rom_kernel":"apple",
 "rom_avail":true,
 "rom_size":"2.69GB",
-"rom_url":"https://archive.org/download/vectras-vm-roms/macos105x86.vbi",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"macos105x86.IMG",
 "rom_extra":"-vga vmware -net nic,model=rtl8139 -net user -M q35"
 },
