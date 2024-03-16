@@ -425,7 +425,7 @@
 "rom_size":"1.6GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"t10x86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
+"rom_extra":"-vga qxl -net nic,model=rtl8139 -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
@@ -436,7 +436,7 @@
 "rom_size":"3.49GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"t10x64.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
+"rom_extra":"-vga qxl -net nic,model=rtl8139 -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
