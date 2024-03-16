@@ -337,7 +337,7 @@
 "rom_size":"1.1GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"txpx64.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
