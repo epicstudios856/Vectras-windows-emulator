@@ -516,6 +516,28 @@
 "rom_extra":"-vga std -net nic,model=pcnet -net user"
 },
 {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/xubuntu.png",
+"rom_name":"Xubuntu 16.04",
+"rom_arch":"x64",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"1.5GB",
+"rom_url":"https://vectras.netlify.app/roms",
+"rom_path":"xubuntux64.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/rasp.png",
+"rom_name":"Raspian OS",
+"rom_arch":"x86",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"1.75GB",
+"rom_url":"https://vectras.netlify.app/roms",
+"rom_path":"raspberryosx86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
+},
+{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/Picsart_24-01-18_12-51-44-162.png",
 "rom_name":"Damn Small Linux",
 "rom_arch":"x86",
