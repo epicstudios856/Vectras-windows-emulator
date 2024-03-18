@@ -458,7 +458,7 @@
 "rom_size":"3.87GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"klx86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
@@ -469,7 +469,7 @@
 "rom_size":"4.43GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"klx64.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
 },
   {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/mint.png",
@@ -480,7 +480,7 @@
 "rom_size":"802MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"lmx86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user"
+"rom_extra":"-vga std -net nic,model=e1000 -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/redhat%20(2).png",
@@ -546,7 +546,7 @@
 "rom_size":"1.35GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"anonymousx86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/anonymous.iso -boot d"
+"rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/anonymous.iso -boot d -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/debian.jpg",
@@ -579,7 +579,7 @@
 "rom_size":"937.2MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"ubuntu12x86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user"
+"rom_extra":"-vga std -net nic,model=e1000 -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/ubuntu.jpg",
@@ -612,7 +612,7 @@
 "rom_size":"708.7MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"freebsd11x86.IMG",
-"rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
+"rom_extra":"-vga std -net nic,model=ne2k_pci -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/anonymos.jpg",
@@ -711,7 +711,7 @@
 "rom_size":"414MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"slaxx64.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/slax64.iso -boot d"
+"rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/slax64.iso -boot d -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/alpine.jpg",
@@ -722,7 +722,7 @@
 "rom_size":"534.2MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"alpinex86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga std -net nic,model=rtl8139 -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/ponyos.jpg",
@@ -755,7 +755,7 @@
 "rom_size":"1.0GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"haikux86.IMG",
-"rom_extra":"-vga vmware -net nic,model=e1000 -net user"
+"rom_extra":"-vga vmware -net nic,model=e1000 -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
 },
   {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/90apple.jpg",
