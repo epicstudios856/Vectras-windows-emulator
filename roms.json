@@ -418,25 +418,25 @@
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
-"rom_name":"Tiny 10",
+"rom_name":"Windows 10",
 "rom_arch":"x86",
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"1.6GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"t10x86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
-"rom_name":"Tiny 10",
+"rom_name":"Windows 10",
 "rom_arch":"x64",
 "rom_kernel":"windows",
 "rom_avail":true,
 "rom_size":"3.49GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"t10x64.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
@@ -448,6 +448,17 @@
 "rom_url":"https://www.google.com",
 "rom_path":"win10arm.IMG",
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/win11.png",
+"rom_name":"Windows 11",
+"rom_arch":"x64",
+"rom_kernel":"windows",
+"rom_avail":true,
+"rom_size":"2.7GB",
+"rom_url":"https://vectras.netlify.app/roms",
+"rom_path":"t12x64.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
