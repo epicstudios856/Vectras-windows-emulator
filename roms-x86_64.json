@@ -418,7 +418,7 @@
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
-"rom_name":"Tiny 10",
+"rom_name":"Windows 10",
 "rom_arch":"x86",
 "rom_kernel":"windows",
 "rom_avail":true,
@@ -429,7 +429,7 @@
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t8.jpg",
-"rom_name":"Tiny 10",
+"rom_name":"Windows 10",
 "rom_arch":"x64",
 "rom_kernel":"windows",
 "rom_avail":true,
