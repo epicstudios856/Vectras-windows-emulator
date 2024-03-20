@@ -457,7 +457,7 @@
 "rom_avail":true,
 "rom_size":"2.7GB",
 "rom_url":"https://vectras.netlify.app/roms",
-"rom_path":"t12x64.IMG",
+"rom_path":"t11x64.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
