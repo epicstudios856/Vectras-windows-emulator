@@ -358,7 +358,7 @@
 "rom_avail":true,
 "rom_size":"703.2MB",
 "rom_url":"https://vectras.netlify.app/roms",
-"rom_path":"tvistax86.IMG",
+"rom_path":"tvistax86.img",
 "rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
