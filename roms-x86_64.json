@@ -352,14 +352,14 @@
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
-"rom_name":"Tiny Vista",
+"rom_name":"Windows Vista",
 "rom_arch":"x86",
 "rom_kernel":"windows",
-"rom_avail":false,
+"rom_avail":true,
 "rom_size":"703.2MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"tvistax86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
@@ -619,11 +619,11 @@
 "rom_name":"Ubuntu 4",
 "rom_arch":"x86",
 "rom_kernel":"linux",
-"rom_avail":false,
-"rom_size":"800MB",
-"rom_url":"lol",
+"rom_avail":true,
+"rom_size":"991.3MB",
+"rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"ubuntu4x86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user"
+"rom_extra":"-vga vmware -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/ubuntu.jpg",
