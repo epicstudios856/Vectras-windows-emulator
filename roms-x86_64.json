@@ -494,6 +494,17 @@
 "rom_extra":"-vga std -net nic,model=e1000 -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
 },
 {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/arch.jpg",
+"rom_name":"Arch Linux",
+"rom_arch":"x64",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"2.6GB",
+"rom_url":"https://vectras.netlify.app/roms",
+"rom_path":"archx64.IMG",
+"rom_extra":"-vga std -net nic,model=e1000 -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci"
+},
+{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/redhat%20(2).png",
 "rom_name":"Red Hat 9",
 "rom_arch":"x86",
@@ -558,6 +569,17 @@
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"dslx86.IMG",
 "rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/dsl.iso -boot d"
+},
+  {
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/redstar.jpg",
+"rom_name":"Redstar OS 2",
+"rom_arch":"x86",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"1.0GB",
+"rom_url":"https://vectras.netlify.app/roms",
+"rom_path":"redstarx86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000"
 },
   {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/xpud.jpg",
