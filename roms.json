@@ -370,7 +370,7 @@
 "rom_size":"1.3GB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"thpcx86.IMG",
-"rom_extra":"-vga std -net nic,model=rtl8139 -net user"
+"rom_extra":"-vga std -net nic,model=e1000 -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
@@ -482,7 +482,7 @@
 "rom_path":"klx64.IMG",
 "rom_extra":"-vga std -net nic,model=rtl8139 -net user"
 },
-  {
+{
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/mint.png",
 "rom_name":"Linux Mint 10",
 "rom_arch":"x86",
@@ -491,6 +491,17 @@
 "rom_size":"802MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"lmx86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/arch.jpg",
+"rom_name":"Arch Linux",
+"rom_arch":"x64",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"2.6GB",
+"rom_url":"https://vectras.netlify.app/roms",
+"rom_path":"archx64.IMG",
 "rom_extra":"-vga std -net nic,model=e1000"
 },
 {
@@ -557,7 +568,18 @@
 "rom_size":"49.3MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"dslx86.IMG",
-"rom_extra":"-vga std -net nic,model=e1000 -net user -device virtio-net-pci -device virtio-scsi-pci -device virtio-rng-pci -device virtio-balloon-pci -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/dsl.iso -boot d"
+"rom_extra":"-vga std -net nic,model=e1000 -net user -drive index=1,media=cdrom,file=/storage/emulated/0/Android/data/com.vectras.vm/files/data/Vectras/dsl.iso -boot d"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/redstar.jpg",
+"rom_name":"Redstar OS 2",
+"rom_arch":"x86",
+"rom_kernel":"linux",
+"rom_avail":true,
+"rom_size":"1.0GB",
+"rom_url":"https://vectras.netlify.app/roms",
+"rom_path":"redstarx86.IMG",
+"rom_extra":"-vga std -net nic,model=e1000"
 },
   {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/xpud.jpg",
@@ -634,7 +656,7 @@
 "rom_size":"187MB",
 "rom_url":"https://vectras.netlify.app/roms",
 "rom_path":"openbsd5x86.IMG",
-"rom_extra":"-vga std -net nic,model=ne2k_pci -net user"
+"rom_extra":"-vga cirrus -net nic,model=ne2k_pci -net user"
 },
 {
 "rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/freebsd.jpg",
